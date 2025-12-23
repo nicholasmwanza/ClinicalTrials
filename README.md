@@ -100,4 +100,3 @@ This project is released under the **MIT License** (or update as appropriate).
 ---
 
 
-# ClinicalTrials
