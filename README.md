@@ -46,13 +46,13 @@ The adaptive framework uses model-predicted risk levels to guide treatment escal
 ##  Repository Structure
 
 ```
-ClinicalTrials.github/
+nicholasmwanza/ClinicalTrials
 │
-├── AI-Assisted Adaptive Clinical Trial for Early Treatment Failure in Type 2 Diabetes.ipynb
+├── AI-Assisted Adaptive Clinical Trial for Early Treatment Failure in Type 3 Diabetes.ipynb
 ├── README.md
-├── data/                
-├── figures/             
-└── docs/                
+├── clinical_data.csv                
+├── clinical_data_scored.csv/             
+└──                
 ```
 
 --
@@ -90,7 +90,8 @@ ClinicalTrials.github/
 ##  Author
 
 **Nicholas Mwanza**
-Applied Statistics / Data Science
+
+Applied Statistician/ Data Science, Public Health Practitioner, 
 AI-Assisted Clinical Trial Research
 
 ---
