@@ -12,9 +12,9 @@ Traditional clinical trials in diabetes often rely on static treatment allocatio
 
 The project is guided by the following objectives:
 
-1. **To develop an AI-driven framework** for predicting early treatment failure in Type 2 Diabetes.
-2. **To simulate and compare** outcomes between a conventional control trial arm and an AI-adaptive intervention arm.
-3. **To evaluate clinical outcomes and trial efficiency**, including failure rates and risk stratification performance.
+1. To develop an AI-driven adaptive clinical trial framework that integrates wearable biomarker data (e.g., continuous glucose, heart rate variability, physical activity) to predict early treatment failure in Type 2 diabetes patients.
+2. To evaluate the feasibility and data quality of a decentralized clinical trial model using mobile health technologies in Sub-Saharan African healthcare settings.
+3. To assess whether AI-assisted real-time treatment adjustments reduce time to therapeutic optimization compared to conventional fixed-protocol clinical trials.
 
 ---
 
