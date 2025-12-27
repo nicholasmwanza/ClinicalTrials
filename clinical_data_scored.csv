@@ -1,0 +1,1001 @@
+participant_id,age,sex,BMI,baseline_HbA1c,avg_daily_glucose,glucose_variability,avg_daily_steps,heart_rate_variability,medication_adherence_rate,trial_arm,prob_failure_sim,early_treatment_failure,failure_risk_score,ai_action
+1,58,Female,31.8,8.25,244.5,49.3,1963,25.7,0.93,AI-Adaptive,0.103,0,0.30642275072644176,Continue standard protocol
+2,44,Male,27.3,10.02,309.4,52.8,1148,40.5,0.87,Control,0.265,1,0.906859049421691,Immediate treatment optimization
+3,37,Female,28.2,8.38,222.5,28.2,3256,59.2,0.82,Control,0.108,1,0.2744975197322622,Continue standard protocol
+4,50,Female,28.3,9.44,280.8,23.4,2298,29.8,0.93,AI-Adaptive,0.139,0,0.9887588443444594,Immediate treatment optimization
+5,48,Female,30.1,6.55,168.0,42.1,1094,40.9,0.68,AI-Adaptive,0.067,0,0.7906757856075509,Immediate treatment optimization
+6,52,Female,31.5,8.92,277.7,28.0,1322,65.4,0.65,AI-Adaptive,0.192,1,0.33033334146509996,Continue standard protocol
+7,40,Female,29.5,8.17,213.6,30.8,728,32.3,0.87,Control,0.091,0,0.9113493305516946,Immediate treatment optimization
+8,40,Male,28.9,8.69,244.1,39.9,852,61.8,0.43,AI-Adaptive,0.281,0,0.29491719248805737,Continue standard protocol
+9,53,Female,27.9,8.63,247.8,29.0,2281,41.7,0.78,AI-Adaptive,0.133,0,0.2906827445891317,Continue standard protocol
+10,65,Male,18.5,8.65,257.9,28.5,1101,46.2,0.96,AI-Adaptive,0.094,0,0.07619065800346891,Continue standard protocol
+11,53,Male,25.8,9.24,298.1,21.0,5338,60.5,0.91,AI-Adaptive,0.128,0,0.15579819145140905,Continue standard protocol
+12,32,Female,23.2,7.82,209.9,24.4,1887,39.2,0.78,AI-Adaptive,0.085,0,0.03602490156344551,Continue standard protocol
+13,51,Male,31.8,9.18,279.8,28.8,803,52.6,0.6,AI-Adaptive,0.236,0,0.9422757293120587,Immediate treatment optimization
+14,31,Female,29.5,9.98,318.8,21.7,910,55.6,0.82,Control,0.213,1,0.9663654767620675,Immediate treatment optimization
+15,53,Male,25.2,6.81,194.0,19.9,3401,37.2,0.8,AI-Adaptive,0.046,0,0.5079321026974278,Remote consultation
+16,59,Female,25.6,7.56,200.7,29.5,1727,35.9,0.42,AI-Adaptive,0.159,0,0.8941048038856944,Immediate treatment optimization
+17,31,Male,25.4,7.61,178.5,14.0,3279,42.3,0.93,Control,0.05,0,0.2500419878433301,Continue standard protocol
+18,50,Female,25.4,7.19,239.0,23.0,1451,42.6,0.73,Control,0.068,0,0.548581383496512,Remote consultation
+19,62,Female,21.2,7.93,217.2,45.1,1292,32.1,0.92,AI-Adaptive,0.085,1,0.09031951544914452,Continue standard protocol
+20,41,Male,20.4,9.74,252.7,27.5,3539,37.3,0.85,Control,0.193,0,0.6999587683090682,Remote consultation
+21,51,Female,27.1,10.24,259.6,26.7,1080,5.0,0.9,AI-Adaptive,0.218,1,0.2199921592175509,Continue standard protocol
+22,54,Female,31.3,8.63,221.6,26.9,2425,41.0,0.8,Control,0.126,0,0.7935155759124656,Immediate treatment optimization
+23,56,Male,24.8,8.11,245.5,27.5,1592,55.7,0.73,Control,0.112,0,0.1114807881407186,Continue standard protocol
+24,57,Male,28.2,9.46,286.0,35.6,3063,25.0,0.69,AI-Adaptive,0.243,0,0.8796603773872212,Immediate treatment optimization
+25,45,Female,29.9,5.66,171.5,32.7,5383,39.4,0.63,Control,0.042,0,0.6767640287697302,Remote consultation
+26,44,Female,23.0,7.23,205.1,26.2,1429,74.3,0.67,AI-Adaptive,0.081,0,0.21053149291972983,Continue standard protocol
+27,32,Female,26.9,5.71,135.0,26.2,1302,44.7,0.83,Control,0.026,0,0.8305395067314045,Immediate treatment optimization
+28,36,Female,24.3,7.22,187.6,39.5,2696,61.3,0.87,AI-Adaptive,0.062,0,0.9307321250203849,Immediate treatment optimization
+29,50,Male,33.4,7.58,190.1,17.0,945,32.9,0.74,Control,0.076,1,0.12087522461482947,Continue standard protocol
+30,38,Male,33.2,10.27,299.0,30.8,4769,50.4,0.78,AI-Adaptive,0.279,0,0.03407168735232291,Continue standard protocol
+31,47,Female,23.0,5.5,132.7,29.0,4305,30.8,0.74,AI-Adaptive,0.029,0,0.30486658643425946,Continue standard protocol
+32,33,Male,28.5,8.0,209.7,23.2,993,49.8,0.94,AI-Adaptive,0.067,0,0.7870986407839692,Immediate treatment optimization
+33,54,Male,31.3,9.24,255.1,29.4,699,55.1,0.8,AI-Adaptive,0.171,0,0.7746254794609759,Immediate treatment optimization
+34,43,Female,30.4,8.99,218.3,22.3,901,52.3,0.65,Control,0.187,0,0.7463634626509918,Immediate treatment optimization
+35,38,Female,27.3,10.25,287.9,36.1,909,40.9,0.87,AI-Adaptive,0.251,0,0.38621713605049923,Continue standard protocol
+36,55,Female,32.2,8.69,241.2,19.4,2925,48.3,0.7,Control,0.145,0,0.03329223056771646,Continue standard protocol
+37,31,Female,23.4,8.95,274.3,39.2,4580,48.4,0.86,Control,0.148,0,0.3640092356515684,Continue standard protocol
+38,49,Female,25.8,6.29,159.7,27.9,2905,53.0,0.5,AI-Adaptive,0.072,0,0.7555398955022824,Immediate treatment optimization
+39,57,Female,23.5,7.31,178.7,25.2,1569,43.5,0.74,AI-Adaptive,0.072,0,0.14572830722804408,Continue standard protocol
+40,36,Female,30.1,6.36,170.6,20.6,2221,56.2,0.59,Control,0.057,0,0.7427954324499054,Immediate treatment optimization
+41,37,Male,24.7,9.19,235.4,38.2,1073,62.2,0.29,Control,0.407,1,0.7488578957090964,Immediate treatment optimization
+42,64,Male,26.3,8.92,250.5,25.0,3492,41.2,0.25,Control,0.356,1,0.08363347555746126,Continue standard protocol
+43,43,Female,29.5,8.88,211.4,20.1,2343,45.6,0.89,AI-Adaptive,0.111,0,0.05901124636530786,Continue standard protocol
+44,46,Female,29.8,7.44,196.2,37.6,2875,34.1,0.96,AI-Adaptive,0.056,1,0.35576097198410395,Continue standard protocol
+45,65,Male,23.4,7.33,186.7,21.7,1169,49.1,0.72,Control,0.073,0,0.9274873000429396,Immediate treatment optimization
+46,33,Male,31.2,8.75,256.4,29.6,1634,49.2,0.74,Control,0.153,0,0.4379589487948573,Remote consultation
+47,31,Male,28.8,7.7,199.4,35.8,2793,45.7,0.63,Control,0.122,0,0.2724801502700339,Continue standard protocol
+48,35,Male,22.7,7.28,169.1,29.9,4299,46.6,0.9,AI-Adaptive,0.054,0,0.9445159286307369,Immediate treatment optimization
+49,33,Female,21.7,7.89,216.9,43.4,1255,68.1,0.59,Control,0.156,0,0.5423989804202491,Remote consultation
+50,58,Male,26.9,7.71,222.3,23.0,2888,10.4,0.9,Control,0.062,0,0.695052334562343,Remote consultation
+51,47,Female,30.4,7.46,203.5,27.6,1179,39.0,0.89,Control,0.059,0,0.957730557804781,Immediate treatment optimization
+52,55,Female,30.5,7.03,184.6,27.9,6440,40.9,0.76,Control,0.062,0,0.5441831137016587,Remote consultation
+53,63,Female,28.4,9.04,239.7,35.0,1410,62.5,0.74,AI-Adaptive,0.185,0,0.784156195076498,Immediate treatment optimization
+54,39,Female,27.2,10.37,292.6,41.4,2660,50.7,0.7,Control,0.357,0,0.9522531224424726,Immediate treatment optimization
+55,65,Male,29.0,8.45,218.8,30.2,1997,51.0,0.66,AI-Adaptive,0.155,1,0.927226394892166,Immediate treatment optimization
+56,43,Female,23.6,8.77,239.0,28.9,8632,60.1,0.47,AI-Adaptive,0.247,0,0.32041108668823437,Continue standard protocol
+57,60,Male,33.7,9.14,270.9,18.8,2075,42.8,0.35,Control,0.317,0,0.4978333103156172,Remote consultation
+58,44,Male,33.7,8.94,224.3,30.6,1327,52.8,0.91,AI-Adaptive,0.123,0,0.028677358374804562,Continue standard protocol
+59,37,Female,28.7,7.48,208.6,24.2,2654,38.6,0.71,Control,0.083,1,0.9194275621612272,Immediate treatment optimization
+60,43,Male,27.8,10.56,259.9,35.4,2618,32.4,0.95,Control,0.248,1,0.07596249116527587,Continue standard protocol
+61,52,Male,25.4,7.59,217.1,26.3,1645,66.5,0.76,Control,0.081,0,0.19089371388475107,Continue standard protocol
+62,50,Female,29.1,9.28,240.3,28.1,937,49.4,0.57,Control,0.257,0,0.7758050754750248,Immediate treatment optimization
+63,45,Male,24.2,9.14,276.3,19.1,1317,52.7,0.82,Control,0.142,0,0.49820302202297284,Remote consultation
+64,47,Female,18.5,6.15,142.7,13.6,3068,32.0,0.42,AI-Adaptive,0.067,0,0.140243191195899,Continue standard protocol
+65,53,Male,18.5,8.07,234.8,44.8,634,51.1,0.79,AI-Adaptive,0.118,0,0.18259979716130403,Continue standard protocol
+66,55,Female,23.8,8.57,264.4,31.6,1558,66.3,0.81,Control,0.126,0,0.7729208152382882,Immediate treatment optimization
+67,54,Female,27.6,8.66,221.9,32.9,3284,41.7,0.77,AI-Adaptive,0.144,0,0.6604874372430241,Remote consultation
+68,58,Female,28.3,8.86,230.8,22.6,1709,29.9,0.67,Control,0.171,0,0.07015837591852536,Continue standard protocol
+69,44,Female,25.1,9.41,244.6,37.1,6662,47.2,0.76,AI-Adaptive,0.214,1,0.02466419505726325,Continue standard protocol
+70,30,Male,27.6,8.49,228.0,35.4,635,32.6,0.82,AI-Adaptive,0.123,0,0.2528258613675096,Continue standard protocol
+71,54,Female,25.9,8.93,260.4,24.0,1016,26.3,0.94,Control,0.107,0,0.4983092072857803,Remote consultation
+72,36,Male,23.0,8.45,225.2,21.3,451,36.2,0.61,AI-Adaptive,0.156,0,0.036446963122755416,Continue standard protocol
+73,38,Female,26.8,7.28,181.4,23.0,5980,39.1,0.6,AI-Adaptive,0.092,0,0.8530273437075723,Immediate treatment optimization
+74,53,Male,30.3,8.54,198.7,29.0,1026,33.2,0.69,AI-Adaptive,0.151,0,0.32027420770057236,Continue standard protocol
+75,30,Female,23.2,9.4,295.2,32.5,549,60.9,0.65,Control,0.246,1,0.23907241832145332,Continue standard protocol
+76,37,Male,23.2,9.83,308.8,31.7,1252,67.7,0.55,AI-Adaptive,0.338,0,0.3534548223907359,Continue standard protocol
+77,53,Female,22.7,9.14,267.1,41.0,784,52.4,0.95,AI-Adaptive,0.139,1,0.9419412850050634,Immediate treatment optimization
+78,40,Female,19.3,10.1,266.6,24.9,1258,49.6,0.74,AI-Adaptive,0.264,0,0.42848519415678366,Remote consultation
+79,46,Female,25.1,9.0,267.0,21.9,1853,43.3,0.74,AI-Adaptive,0.159,1,0.22776536756571164,Continue standard protocol
+80,37,Male,29.9,9.54,286.1,31.0,2931,34.2,0.87,AI-Adaptive,0.176,0,0.4147258732557457,Remote consultation
+81,64,Female,27.7,9.62,264.3,17.0,1628,64.2,0.77,AI-Adaptive,0.19,0,0.0637217951219351,Continue standard protocol
+82,64,Male,26.3,8.23,231.3,35.4,1836,44.2,0.77,AI-Adaptive,0.12,1,0.2517141482598215,Continue standard protocol
+83,62,Male,27.5,9.37,287.0,31.8,1275,39.4,0.98,AI-Adaptive,0.133,0,0.9771499932318632,Immediate treatment optimization
+84,34,Male,25.0,7.37,173.6,26.0,730,57.2,0.57,AI-Adaptive,0.105,1,0.30490677810361155,Continue standard protocol
+85,57,Male,19.2,8.92,269.7,27.5,597,44.1,0.62,Control,0.201,0,0.4552291764233569,Remote consultation
+86,36,Female,30.1,9.19,251.1,37.5,1453,56.7,0.89,AI-Adaptive,0.154,0,0.0601985475229081,Continue standard protocol
+87,38,Female,31.3,9.76,251.0,37.3,1902,40.1,0.55,AI-Adaptive,0.344,0,0.8305606560034594,Immediate treatment optimization
+88,37,Male,24.1,9.48,244.8,28.2,1390,57.2,0.88,AI-Adaptive,0.163,0,0.05519769961471266,Continue standard protocol
+89,41,Male,26.4,9.78,256.5,35.1,611,56.8,0.57,AI-Adaptive,0.331,1,0.08761017230784329,Continue standard protocol
+90,63,Male,26.1,8.38,210.4,36.4,2040,60.9,0.42,AI-Adaptive,0.244,1,0.3680733670489188,Continue standard protocol
+91,62,Male,28.4,8.09,261.9,33.2,4806,36.5,0.52,Control,0.176,0,0.5146111559825428,Remote consultation
+92,52,Female,33.8,8.17,238.6,28.4,1688,44.0,0.68,Control,0.129,0,0.7284865403411648,Immediate treatment optimization
+93,53,Male,31.6,8.82,268.2,33.7,1277,68.4,0.5,Control,0.251,0,0.8639968848187171,Immediate treatment optimization
+94,64,Male,25.5,6.33,188.5,20.7,1744,42.0,0.61,Control,0.054,0,0.30003651525133157,Continue standard protocol
+95,51,Male,29.2,10.1,284.0,31.5,932,54.7,0.95,AI-Adaptive,0.197,0,0.5008995065802593,Remote consultation
+96,56,Female,32.0,8.55,240.9,28.2,897,72.5,0.84,AI-Adaptive,0.113,0,0.30048742499429304,Continue standard protocol
+97,64,Female,28.6,8.0,216.0,26.4,2370,22.8,0.86,AI-Adaptive,0.081,0,0.17466990210877775,Continue standard protocol
+98,30,Female,27.0,5.5,147.7,14.4,3275,41.6,0.83,Control,0.02,0,0.33657576070989614,Continue standard protocol
+99,64,Female,28.8,8.46,208.7,21.2,1655,45.0,0.67,Control,0.14,0,0.8000987057552031,Immediate treatment optimization
+100,43,Female,24.2,8.26,252.9,26.4,553,23.4,0.7,Control,0.127,0,0.7792706542812835,Immediate treatment optimization
+101,32,Male,24.8,7.42,171.5,35.8,2235,39.5,0.65,Control,0.103,0,0.9133693326896789,Immediate treatment optimization
+102,30,Female,22.7,7.69,194.1,31.4,6251,33.3,0.6,AI-Adaptive,0.123,0,0.23594433021303507,Continue standard protocol
+103,34,Female,28.2,8.47,277.4,38.3,1562,55.3,0.83,AI-Adaptive,0.124,0,0.30419835659787864,Continue standard protocol
+104,55,Female,26.5,7.79,220.8,39.6,1625,24.2,0.83,Control,0.09,0,0.4151152980313467,Remote consultation
+105,43,Female,23.7,9.19,260.9,33.1,1071,67.7,0.88,AI-Adaptive,0.15,0,0.3974705961931644,Continue standard protocol
+106,56,Female,26.3,7.6,225.5,30.9,2413,53.3,0.72,Control,0.093,0,0.6847773834657385,Remote consultation
+107,38,Female,28.9,8.69,212.5,21.7,1209,32.4,0.69,Control,0.151,0,0.9590225259936898,Immediate treatment optimization
+108,44,Female,34.7,9.92,249.9,46.1,3337,57.3,0.91,Control,0.224,0,0.21141164585987882,Continue standard protocol
+109,44,Female,31.0,8.46,228.0,18.5,1219,52.2,0.84,Control,0.098,0,0.5253516379559541,Remote consultation
+110,55,Female,18.5,8.93,232.0,30.8,2220,44.5,0.73,AI-Adaptive,0.172,0,0.5683009085883208,Remote consultation
+111,42,Female,28.0,8.85,246.3,36.8,1758,36.3,0.85,AI-Adaptive,0.141,0,0.7494201419709746,Immediate treatment optimization
+112,61,Male,32.7,8.51,248.0,37.0,4597,51.6,0.76,Control,0.142,0,0.6569411225274793,Remote consultation
+113,61,Female,21.6,8.42,263.5,21.3,2312,46.5,0.49,Control,0.191,0,0.3611700983596895,Continue standard protocol
+114,33,Male,29.2,7.81,234.9,26.6,4156,36.7,0.72,AI-Adaptive,0.098,0,0.6994615194132294,Remote consultation
+115,59,Female,26.1,8.68,223.2,23.3,1930,28.9,0.81,AI-Adaptive,0.121,0,0.644648139631019,Remote consultation
+116,52,Female,31.6,8.16,221.0,13.8,1632,34.8,0.41,Control,0.183,0,0.943622255368995,Immediate treatment optimization
+117,44,Female,28.6,10.36,277.1,31.8,1767,39.0,0.56,Control,0.401,0,0.08798951922227582,Continue standard protocol
+118,58,Male,23.5,9.47,244.8,24.4,1138,58.9,0.65,Control,0.235,0,0.8548409751198256,Immediate treatment optimization
+119,65,Male,26.2,6.76,164.4,40.6,2487,55.3,0.58,Control,0.089,0,0.5807630730725599,Remote consultation
+120,42,Male,26.4,6.82,224.2,34.6,1195,39.6,0.32,Control,0.143,1,0.12844331687925226,Continue standard protocol
+121,61,Female,26.5,8.34,233.7,30.2,1934,40.1,0.68,AI-Adaptive,0.142,0,0.7245796232916925,Immediate treatment optimization
+122,36,Male,31.5,8.03,220.4,25.9,3020,56.9,0.72,AI-Adaptive,0.108,0,0.10724071626239207,Continue standard protocol
+123,51,Male,23.6,8.28,241.5,31.0,4676,48.2,0.95,Control,0.082,0,0.087711859317818,Continue standard protocol
+124,57,Male,31.0,9.28,270.5,28.6,1994,48.0,0.77,Control,0.183,0,0.33689485892040416,Continue standard protocol
+125,31,Female,25.8,8.88,271.0,31.2,3031,36.6,0.89,Control,0.125,0,0.524872008421139,Remote consultation
+126,35,Female,27.9,8.87,233.5,45.1,2822,43.5,0.95,Control,0.128,0,0.2212497313609041,Continue standard protocol
+127,57,Male,27.3,10.24,294.8,22.6,1437,45.1,0.73,AI-Adaptive,0.278,0,0.8133737559808013,Immediate treatment optimization
+128,57,Male,26.9,6.83,173.0,27.4,6404,43.9,0.67,AI-Adaptive,0.067,0,0.8618528748730727,Immediate treatment optimization
+129,49,Female,26.9,8.62,237.6,35.6,1280,53.8,0.83,Control,0.129,0,0.10416364117256349,Continue standard protocol
+130,59,Female,32.8,7.81,219.8,26.4,1910,54.2,0.61,AI-Adaptive,0.121,0,0.8043166673390533,Immediate treatment optimization
+131,40,Female,30.4,10.22,289.2,43.7,4326,34.0,0.75,Control,0.32,1,0.11906242575218351,Continue standard protocol
+132,57,Male,25.5,5.85,166.0,34.0,4263,39.0,0.69,Control,0.041,0,0.7481461562628784,Immediate treatment optimization
+133,54,Female,33.3,5.9,181.2,23.1,1824,36.8,0.81,AI-Adaptive,0.029,0,0.003479186678911894,Continue standard protocol
+134,62,Female,28.1,8.87,236.4,31.6,3276,61.7,0.58,Control,0.22,1,0.5684934228722254,Remote consultation
+135,30,Female,28.4,9.85,279.4,25.2,1581,72.0,0.71,AI-Adaptive,0.251,0,0.7625213721493495,Immediate treatment optimization
+136,56,Female,23.7,9.43,248.9,23.8,1349,39.4,0.65,Control,0.23,0,0.19672616298480028,Continue standard protocol
+137,42,Male,25.0,7.54,269.5,29.5,873,43.0,0.63,Control,0.106,0,0.1748432027244512,Continue standard protocol
+138,32,Male,24.2,10.31,270.4,40.8,2791,55.1,0.74,Control,0.328,1,0.36604214200235063,Continue standard protocol
+139,35,Female,27.3,7.02,182.5,34.9,2974,36.5,0.8,Control,0.061,0,0.45647532297675,Remote consultation
+140,37,Female,29.6,10.07,299.6,31.1,1286,55.4,0.4,AI-Adaptive,0.446,0,0.9045684416828994,Immediate treatment optimization
+141,56,Female,28.5,7.18,192.5,35.3,2124,44.7,0.95,Control,0.049,0,0.1659455210049552,Continue standard protocol
+142,38,Female,33.4,8.08,243.9,32.3,8871,24.1,0.66,AI-Adaptive,0.133,1,0.12827425327065423,Continue standard protocol
+143,62,Female,23.4,9.27,262.6,21.1,3598,29.4,0.77,AI-Adaptive,0.169,0,0.3477680509267139,Continue standard protocol
+144,53,Female,27.5,6.74,180.7,27.7,1053,40.9,0.94,Control,0.036,0,0.2215600698951905,Continue standard protocol
+145,44,Male,21.9,10.26,272.2,30.1,3298,59.7,0.64,AI-Adaptive,0.342,0,0.06949455186325437,Continue standard protocol
+146,61,Female,23.3,8.07,210.2,35.5,1056,34.3,0.75,Control,0.116,0,0.9023362738566318,Immediate treatment optimization
+147,61,Male,32.1,8.66,234.6,25.4,318,38.6,0.73,AI-Adaptive,0.143,0,0.764489282850162,Immediate treatment optimization
+148,53,Male,25.1,9.89,273.4,23.4,1786,47.5,0.97,AI-Adaptive,0.159,0,0.9779819761050146,Immediate treatment optimization
+149,41,Female,23.8,7.55,194.8,28.8,4619,25.0,0.94,Control,0.056,0,0.6592804329234032,Remote consultation
+150,31,Male,18.5,9.77,271.4,25.5,4182,48.6,0.71,Control,0.244,0,0.9470869425517716,Immediate treatment optimization
+151,32,Male,23.7,10.47,271.3,28.1,2267,26.5,0.76,AI-Adaptive,0.304,0,0.1296931412602197,Continue standard protocol
+152,46,Male,26.2,7.71,231.0,29.2,1306,51.8,0.56,Control,0.131,0,0.019908876221501837,Continue standard protocol
+153,31,Female,21.6,10.14,302.9,28.2,2421,35.3,0.56,Control,0.362,0,0.9125009321862976,Immediate treatment optimization
+154,31,Male,25.9,6.39,164.8,36.2,1538,33.7,0.42,AI-Adaptive,0.098,0,0.37427510337894976,Continue standard protocol
+155,57,Male,32.1,8.97,236.0,41.3,1329,48.3,0.91,AI-Adaptive,0.139,0,0.8610804278344407,Immediate treatment optimization
+156,52,Male,24.2,7.03,200.4,36.2,3419,54.5,0.88,Control,0.053,0,0.21507526113815922,Continue standard protocol
+157,61,Male,23.2,9.63,294.9,17.0,1319,49.5,0.8,AI-Adaptive,0.181,0,0.7834191014996706,Immediate treatment optimization
+158,62,Male,22.5,9.53,296.6,26.0,3556,47.5,0.64,Control,0.249,1,0.09363333777049787,Continue standard protocol
+159,30,Male,22.4,10.99,279.7,29.4,1267,47.7,0.68,Control,0.414,1,0.1255732339500213,Continue standard protocol
+160,48,Female,29.1,10.21,306.0,16.6,6217,49.6,0.65,AI-Adaptive,0.296,0,0.810429777768778,Immediate treatment optimization
+161,31,Male,27.2,8.3,231.2,22.9,676,50.4,0.74,Control,0.115,0,0.4556109320498566,Remote consultation
+162,55,Male,30.8,7.2,200.8,27.7,1018,40.3,0.93,AI-Adaptive,0.047,0,0.21959703017430932,Continue standard protocol
+163,61,Male,35.1,9.18,267.1,27.0,1647,52.9,0.87,Control,0.143,0,0.7414007687676047,Immediate treatment optimization
+164,35,Male,19.7,8.43,226.4,29.8,550,35.4,0.74,Control,0.132,0,0.28915729688181635,Continue standard protocol
+165,61,Female,28.5,10.36,312.0,20.4,387,58.1,0.98,Control,0.188,1,0.3952938374892898,Continue standard protocol
+166,33,Female,22.5,5.9,193.7,25.4,553,54.4,0.72,AI-Adaptive,0.036,0,0.7300773616884697,Immediate treatment optimization
+167,40,Male,30.2,11.13,340.9,33.3,1517,71.2,0.94,AI-Adaptive,0.311,0,0.6946384689850723,Remote consultation
+168,46,Male,25.9,9.14,219.0,29.7,1541,51.2,0.5,Control,0.276,0,0.7853053105717442,Immediate treatment optimization
+169,53,Male,27.1,7.52,206.0,32.9,2208,55.9,0.74,AI-Adaptive,0.087,0,0.6930674406617854,Remote consultation
+170,34,Female,21.9,9.38,223.9,32.8,1606,26.3,0.66,AI-Adaptive,0.241,0,0.04325499056120197,Continue standard protocol
+171,63,Female,25.3,10.06,266.4,27.3,2164,56.3,0.88,Control,0.21,0,0.7566257204217611,Immediate treatment optimization
+172,35,Female,27.4,8.64,194.0,30.1,1380,59.1,0.87,AI-Adaptive,0.114,0,0.6330077415217961,Remote consultation
+173,51,Male,32.4,6.38,187.6,22.6,2776,63.1,0.58,AI-Adaptive,0.06,0,0.1905388462576053,Continue standard protocol
+174,40,Female,23.8,8.15,232.6,27.7,2583,46.4,0.59,AI-Adaptive,0.15,0,0.9215790282040534,Immediate treatment optimization
+175,45,Male,24.8,9.75,264.3,22.1,1486,40.9,0.69,Control,0.242,0,0.7885779378730755,Immediate treatment optimization
+176,62,Male,30.8,9.1,239.0,38.5,2489,31.9,0.84,Control,0.164,0,0.045098907993930126,Continue standard protocol
+177,38,Male,23.6,8.31,239.0,27.8,1613,33.0,0.68,AI-Adaptive,0.137,0,0.8584371786288686,Immediate treatment optimization
+178,35,Male,31.6,10.07,261.7,39.0,725,44.7,0.81,Control,0.264,0,0.8014452947261511,Immediate treatment optimization
+179,45,Female,27.0,9.39,241.3,32.6,3111,24.0,0.96,AI-Adaptive,0.141,0,0.009874606303296063,Continue standard protocol
+180,58,Female,28.2,9.48,241.4,23.0,1049,35.8,0.93,Control,0.141,0,0.7464908388221433,Immediate treatment optimization
+181,32,Male,28.5,8.01,220.2,31.7,3091,46.1,0.84,AI-Adaptive,0.09,0,0.9863130197921052,Immediate treatment optimization
+182,49,Female,24.5,7.89,209.3,35.9,2196,45.8,0.91,Control,0.077,0,0.889740836952787,Immediate treatment optimization
+183,65,Female,28.6,6.46,173.2,28.1,1719,33.4,0.89,AI-Adaptive,0.035,0,0.7949262857478351,Immediate treatment optimization
+184,48,Female,23.9,8.19,239.8,30.6,586,30.2,0.75,Control,0.116,0,0.31502922716832304,Continue standard protocol
+185,55,Female,25.0,9.62,288.6,26.6,4554,32.0,0.83,AI-Adaptive,0.188,0,0.1671741638686931,Continue standard protocol
+186,32,Female,29.2,8.26,260.3,30.6,1454,42.3,0.87,Control,0.095,0,0.22708542383783803,Continue standard protocol
+187,48,Female,28.2,9.03,254.0,32.2,2646,70.6,0.95,Control,0.121,0,0.40110755349882576,Remote consultation
+188,49,Female,26.7,9.83,282.2,26.3,1689,57.7,0.9,Control,0.181,0,0.1307045886147492,Continue standard protocol
+189,61,Male,22.0,8.95,254.4,21.7,1536,47.6,0.34,AI-Adaptive,0.307,0,0.3880465808972047,Continue standard protocol
+190,36,Male,23.0,9.06,220.2,40.0,2030,51.6,0.3,AI-Adaptive,0.39,0,0.005085374575774182,Continue standard protocol
+191,62,Female,28.1,6.87,185.0,33.8,1837,57.2,0.68,AI-Adaptive,0.072,0,0.8959416214194846,Immediate treatment optimization
+192,47,Male,29.9,8.11,219.8,25.3,1540,53.1,0.7,Control,0.117,0,0.6217951175967906,Remote consultation
+193,30,Female,22.6,10.57,285.7,32.7,1749,41.3,0.86,AI-Adaptive,0.282,0,0.22163342785773132,Continue standard protocol
+194,40,Male,23.6,8.62,240.5,18.2,2336,34.9,0.83,Control,0.107,0,0.7817047210626717,Immediate treatment optimization
+195,57,Male,27.5,10.78,297.5,15.4,2437,43.5,0.54,Control,0.42,0,0.8603249426714594,Immediate treatment optimization
+196,54,Male,27.5,7.63,193.9,37.8,1856,57.1,0.79,Control,0.088,0,0.11896930764337799,Continue standard protocol
+197,52,Male,20.5,8.78,242.8,31.9,2624,41.8,0.65,AI-Adaptive,0.187,0,0.2931034400157678,Continue standard protocol
+198,60,Female,27.6,8.04,212.3,29.1,1402,31.7,0.86,Control,0.085,0,0.3540429838714133,Continue standard protocol
+199,59,Female,24.6,9.21,205.5,31.2,6870,24.3,0.43,AI-Adaptive,0.319,1,0.07816422697564152,Continue standard protocol
+200,64,Female,33.6,9.57,240.0,55.9,4409,43.5,0.8,AI-Adaptive,0.254,0,0.5811410085907209,Remote consultation
+201,36,Female,28.0,9.22,259.9,37.4,2857,32.7,0.7,Control,0.219,0,0.5561654750223677,Remote consultation
+202,45,Male,28.7,9.75,294.8,22.8,564,39.8,0.94,AI-Adaptive,0.157,0,0.6278644813975697,Remote consultation
+203,55,Female,28.8,8.48,188.9,15.6,2601,62.5,0.67,Control,0.133,0,0.8035085078395368,Immediate treatment optimization
+204,31,Female,22.1,8.27,214.2,38.0,1477,44.4,0.77,Control,0.126,0,0.7733370160208741,Immediate treatment optimization
+205,30,Female,34.8,6.39,187.5,35.8,1005,36.0,0.92,AI-Adaptive,0.035,0,0.9962093904028331,Immediate treatment optimization
+206,41,Male,20.5,9.27,277.1,35.4,1455,48.7,0.49,Control,0.309,0,0.2794785027368596,Continue standard protocol
+207,34,Female,30.2,8.71,235.5,23.4,1074,68.1,0.54,Control,0.203,0,0.03210246274213924,Continue standard protocol
+208,61,Female,29.5,8.42,222.1,32.6,2451,43.6,0.73,Control,0.138,0,0.730269374625039,Immediate treatment optimization
+209,38,Female,25.1,8.27,256.0,24.6,4768,16.7,0.72,AI-Adaptive,0.12,1,0.9838514780364489,Immediate treatment optimization
+210,64,Female,29.7,8.46,252.8,35.6,2968,52.8,0.8,AI-Adaptive,0.127,0,0.4659612262052376,Remote consultation
+211,48,Male,25.7,8.22,247.3,38.1,9485,49.2,0.71,AI-Adaptive,0.138,1,0.6665727972143303,Remote consultation
+212,45,Female,24.3,7.87,211.0,25.1,712,46.1,0.76,Control,0.092,0,0.23661134466202294,Continue standard protocol
+213,32,Female,28.9,8.79,268.4,39.7,1335,42.4,0.42,Control,0.297,0,0.3762542160609681,Continue standard protocol
+214,49,Male,23.0,9.08,215.3,30.5,1027,35.3,0.79,AI-Adaptive,0.164,1,0.05727040897981772,Continue standard protocol
+215,53,Female,26.1,7.58,234.9,33.9,3781,63.2,0.88,AI-Adaptive,0.068,0,0.9042776989668376,Immediate treatment optimization
+216,62,Female,24.6,8.02,223.2,19.2,1584,22.9,0.79,AI-Adaptive,0.087,1,0.018418007557307936,Continue standard protocol
+217,53,Male,25.7,8.25,233.6,31.8,2026,41.3,0.82,AI-Adaptive,0.106,0,0.463104076362579,Remote consultation
+218,40,Male,28.7,8.51,219.4,24.2,2644,41.0,0.51,AI-Adaptive,0.198,0,0.5153065479171681,Remote consultation
+219,37,Male,24.6,8.35,197.5,33.0,755,55.2,0.96,Control,0.085,0,0.30848651758266754,Continue standard protocol
+220,65,Male,26.2,9.29,262.3,42.2,1245,59.8,0.51,AI-Adaptive,0.319,1,0.7802695316213335,Immediate treatment optimization
+221,49,Male,25.0,6.52,193.6,31.4,3289,42.3,0.61,Control,0.067,0,0.9851261671833521,Immediate treatment optimization
+222,64,Female,32.8,6.73,202.5,22.1,1301,47.3,0.59,Control,0.07,0,0.41838831091144224,Remote consultation
+223,54,Male,28.4,8.73,256.3,35.4,647,48.3,0.76,Control,0.155,0,0.7989095972404231,Immediate treatment optimization
+224,64,Male,27.9,7.78,225.2,33.0,1052,57.6,0.46,Control,0.17,0,0.7223354755217333,Immediate treatment optimization
+225,54,Female,29.7,9.56,249.2,46.7,1523,57.4,0.65,AI-Adaptive,0.297,0,0.4055438047734322,Remote consultation
+226,58,Female,24.6,9.9,292.5,33.1,1998,38.5,0.64,Control,0.307,0,0.13156800202465257,Continue standard protocol
+227,47,Male,30.4,8.78,225.1,25.1,1733,50.3,0.62,AI-Adaptive,0.185,0,0.6981900024797352,Remote consultation
+228,47,Male,28.4,7.21,224.0,35.9,1251,49.6,0.81,Control,0.067,0,0.765476046649664,Immediate treatment optimization
+229,31,Male,20.8,9.77,271.9,29.7,3177,43.6,0.73,AI-Adaptive,0.245,0,0.8029333387582094,Immediate treatment optimization
+230,64,Female,21.3,8.74,243.7,30.8,1673,49.5,0.79,AI-Adaptive,0.14,0,0.10096069504710414,Continue standard protocol
+231,45,Male,24.7,6.72,205.5,21.9,2050,45.2,0.5,Control,0.084,0,0.656654348197518,Remote consultation
+232,65,Female,21.7,6.82,211.0,28.5,1291,46.9,0.78,AI-Adaptive,0.054,0,0.26755562460637106,Continue standard protocol
+233,62,Female,26.0,10.32,304.4,31.6,4471,28.7,0.83,Control,0.265,0,0.4645881453396158,Remote consultation
+234,33,Male,22.9,10.12,267.0,29.6,1429,34.0,0.39,AI-Adaptive,0.453,1,0.8228319682737769,Immediate treatment optimization
+235,62,Female,26.6,5.5,169.3,23.9,1891,54.8,0.25,Control,0.077,0,0.8076011794623627,Immediate treatment optimization
+236,43,Female,32.6,6.87,176.1,31.1,3364,30.5,0.82,Control,0.052,0,0.2612381191203572,Continue standard protocol
+237,50,Male,26.8,9.87,292.1,23.7,2139,50.6,0.37,AI-Adaptive,0.413,1,0.920872384724831,Immediate treatment optimization
+238,49,Female,25.8,8.48,208.9,20.1,2107,44.0,0.63,AI-Adaptive,0.15,0,0.07735624870103741,Continue standard protocol
+239,37,Female,28.6,9.34,259.6,36.1,553,57.4,0.3,Control,0.416,0,0.45404383196638676,Remote consultation
+240,36,Female,24.2,8.43,219.6,34.6,2720,52.8,0.95,Control,0.092,0,0.7770249542382828,Immediate treatment optimization
+241,32,Female,30.4,9.29,277.5,20.3,1869,39.6,0.93,AI-Adaptive,0.125,0,0.5994506992279882,Remote consultation
+242,46,Female,29.0,8.51,260.6,15.8,2502,42.3,0.75,Control,0.116,0,0.8010159275176585,Immediate treatment optimization
+243,62,Female,27.2,7.97,227.1,21.7,2018,21.2,0.61,Control,0.125,0,0.8055509979119297,Immediate treatment optimization
+244,41,Female,27.6,9.77,276.9,29.8,1293,43.4,0.57,Control,0.316,0,0.3248821141023499,Continue standard protocol
+245,51,Female,35.2,8.74,258.8,39.7,3092,29.8,0.41,AI-Adaptive,0.296,0,0.3769759634561973,Continue standard protocol
+246,51,Female,30.8,9.28,282.3,29.7,2036,42.4,0.9,Control,0.146,0,0.3790029235404955,Continue standard protocol
+247,59,Female,35.8,8.69,244.1,24.0,834,37.3,0.81,Control,0.123,0,0.7691712234151339,Immediate treatment optimization
+248,37,Male,29.1,7.92,211.8,30.7,3964,34.5,0.93,AI-Adaptive,0.071,0,0.14454567595789358,Continue standard protocol
+249,56,Male,21.1,10.43,305.0,30.4,766,59.3,0.65,Control,0.359,0,0.6460581477339971,Remote consultation
+250,56,Male,26.0,8.93,212.9,18.5,3104,29.7,0.62,Control,0.185,0,0.7306989396638475,Immediate treatment optimization
+251,63,Male,20.2,8.07,244.2,19.1,4412,33.4,0.69,Control,0.109,0,0.7618129500907416,Immediate treatment optimization
+252,50,Male,29.1,10.03,266.6,19.8,931,36.6,0.7,Control,0.262,0,0.06929366424427219,Continue standard protocol
+253,59,Female,30.0,6.92,189.0,48.9,1680,39.2,0.31,AI-Adaptive,0.177,1,0.8418707558675614,Immediate treatment optimization
+254,62,Male,23.5,11.18,331.4,38.8,1588,34.5,0.66,Control,0.478,0,0.47635186872066937,Remote consultation
+255,57,Female,24.4,8.29,223.8,25.0,1632,40.7,0.59,Control,0.156,0,0.28749410091975325,Continue standard protocol
+256,62,Male,27.6,6.98,208.4,38.3,5422,48.6,0.94,Control,0.047,0,0.5544796597351616,Remote consultation
+257,34,Female,22.2,10.79,324.9,27.2,937,53.0,0.81,Control,0.316,0,0.17408726184243994,Continue standard protocol
+258,48,Female,21.9,7.94,224.5,38.3,1504,52.5,0.83,Control,0.095,0,0.8690418665613018,Immediate treatment optimization
+259,33,Male,32.0,8.79,252.3,30.9,4456,22.1,0.66,AI-Adaptive,0.183,0,0.12064548163116173,Continue standard protocol
+260,64,Female,27.5,9.36,259.7,25.2,1490,49.6,0.52,AI-Adaptive,0.28,1,0.6654137925903374,Remote consultation
+261,46,Male,24.8,9.92,280.1,36.3,1031,50.3,0.78,Control,0.255,0,0.17700668298656386,Continue standard protocol
+262,57,Female,20.2,8.86,225.8,30.9,2117,37.1,0.59,Control,0.213,0,0.729348359581214,Immediate treatment optimization
+263,59,Male,30.4,7.72,210.3,32.6,2932,65.0,0.71,AI-Adaptive,0.102,0,0.4527358811553661,Remote consultation
+264,58,Female,24.3,8.76,219.5,31.4,1428,58.1,0.83,AI-Adaptive,0.132,0,0.6729661664735787,Remote consultation
+265,35,Male,34.4,8.0,206.0,31.0,2522,42.8,0.81,AI-Adaptive,0.094,0,0.014366276953946877,Continue standard protocol
+266,64,Female,30.4,8.8,206.3,35.8,792,37.8,0.54,Control,0.237,1,0.5659857037489929,Remote consultation
+267,53,Female,23.8,10.45,297.9,51.9,818,64.8,0.71,Control,0.391,1,0.9894723943587487,Immediate treatment optimization
+268,58,Male,24.1,9.41,297.3,41.2,1388,44.8,0.55,Control,0.312,1,0.7859793263407177,Immediate treatment optimization
+269,60,Male,33.9,8.75,235.9,31.7,2576,46.0,0.45,Control,0.26,0,0.601737714968182,Remote consultation
+270,64,Male,26.7,9.39,282.2,28.4,2855,45.9,0.78,Control,0.188,0,0.30364160377977967,Continue standard protocol
+271,62,Male,24.9,9.47,287.7,29.4,890,72.6,0.51,Control,0.308,0,0.11580938720059675,Continue standard protocol
+272,50,Female,27.1,7.21,177.9,18.8,2792,42.4,0.76,AI-Adaptive,0.061,0,0.7764861850865001,Immediate treatment optimization
+273,61,Male,24.9,8.55,219.7,35.0,1998,44.7,0.75,AI-Adaptive,0.145,1,0.8123332318054555,Immediate treatment optimization
+274,52,Male,28.0,11.58,344.1,24.0,1067,35.0,0.72,Control,0.456,0,0.8372789806009363,Immediate treatment optimization
+275,62,Male,26.7,9.96,277.0,27.8,812,40.3,0.77,Control,0.244,0,0.7807361723289749,Immediate treatment optimization
+276,32,Female,30.5,7.9,195.4,34.5,2075,32.6,0.83,Control,0.09,0,0.05874717450674216,Continue standard protocol
+277,47,Male,25.4,7.78,205.1,27.4,3920,35.3,0.8,AI-Adaptive,0.083,0,0.5292531746753522,Remote consultation
+278,54,Male,23.5,7.74,225.1,25.8,1847,23.3,0.88,AI-Adaptive,0.068,0,0.837186429690931,Immediate treatment optimization
+279,60,Male,25.6,9.54,251.2,20.7,1032,55.6,0.82,AI-Adaptive,0.174,0,0.6226885149474316,Remote consultation
+280,32,Male,25.6,10.43,236.5,39.6,589,46.9,0.69,AI-Adaptive,0.364,0,0.37288472524922733,Continue standard protocol
+281,53,Female,26.7,9.2,251.2,23.6,4526,47.9,0.59,Control,0.231,1,0.38434504798103053,Continue standard protocol
+282,61,Male,29.5,8.69,238.5,25.3,3378,44.4,0.6,AI-Adaptive,0.184,0,0.331423735393266,Continue standard protocol
+283,51,Male,29.3,7.97,223.3,15.4,2167,45.9,0.66,AI-Adaptive,0.106,0,0.3246702244304781,Continue standard protocol
+284,52,Female,31.8,8.9,274.4,30.6,4389,64.4,0.55,Control,0.232,0,0.8719149709334495,Immediate treatment optimization
+285,31,Female,23.8,7.52,211.6,26.8,2068,35.8,0.51,Control,0.128,0,0.8386495122056921,Immediate treatment optimization
+286,56,Male,28.6,6.18,177.9,30.3,1315,48.3,0.96,Control,0.027,0,0.6022650774373693,Remote consultation
+287,31,Female,29.9,10.46,314.0,22.1,2523,48.3,0.52,AI-Adaptive,0.407,0,0.10840502071586244,Continue standard protocol
+288,55,Female,24.3,7.29,204.3,35.2,1099,58.7,0.46,Control,0.138,0,0.574490061236999,Remote consultation
+289,46,Male,26.2,8.11,269.8,15.9,995,50.3,0.82,AI-Adaptive,0.083,0,0.767670529794792,Immediate treatment optimization
+290,62,Female,20.0,9.29,234.8,29.2,2873,50.9,0.85,AI-Adaptive,0.16,0,0.25476086142994825,Continue standard protocol
+291,38,Female,30.6,10.22,267.5,31.5,3021,29.9,0.83,AI-Adaptive,0.254,0,0.9875896326209844,Immediate treatment optimization
+292,58,Male,26.1,8.81,259.0,30.9,842,35.3,0.55,AI-Adaptive,0.224,1,0.2549411100109982,Continue standard protocol
+293,55,Male,30.2,7.07,223.0,31.0,861,31.0,0.65,Control,0.082,0,0.800396577633105,Immediate treatment optimization
+294,64,Male,27.8,8.14,223.9,36.0,1384,15.3,0.81,Control,0.107,0,0.4561315406628349,Remote consultation
+295,54,Female,26.3,7.69,195.1,39.7,1180,49.8,0.86,AI-Adaptive,0.08,1,0.5940690644211565,Remote consultation
+296,53,Female,20.6,8.45,271.8,29.4,2406,41.9,0.97,Control,0.084,0,0.08195302332064403,Continue standard protocol
+297,42,Female,21.3,9.98,263.6,22.8,1861,49.8,0.67,AI-Adaptive,0.277,0,0.7049525074657941,Immediate treatment optimization
+298,36,Male,18.5,5.5,160.8,32.9,3637,45.4,0.51,AI-Adaptive,0.05,0,0.7185118726204537,Immediate treatment optimization
+299,65,Female,24.7,8.01,250.6,28.0,2187,47.9,0.68,Control,0.119,0,0.033588285092467696,Continue standard protocol
+300,49,Female,36.1,7.92,212.9,39.6,1228,61.1,0.82,Control,0.098,0,0.6542485745878683,Remote consultation
+301,30,Male,21.8,6.99,183.3,24.1,581,45.1,0.96,AI-Adaptive,0.038,0,0.7362063124724182,Immediate treatment optimization
+302,37,Male,18.5,9.2,246.5,23.3,2014,53.0,0.9,Control,0.131,0,0.5356415915497102,Remote consultation
+303,45,Female,30.9,6.8,208.4,30.6,648,41.4,0.8,AI-Adaptive,0.052,0,0.5228173341930209,Remote consultation
+304,43,Male,36.5,6.94,215.5,15.6,1219,54.9,0.77,Control,0.05,0,0.10780229954472831,Continue standard protocol
+305,41,Female,28.2,9.52,267.2,26.8,1173,30.1,0.57,AI-Adaptive,0.28,0,0.9616641479411067,Immediate treatment optimization
+306,52,Male,28.2,10.3,326.1,29.1,1333,22.9,0.26,AI-Adaptive,0.548,1,0.4560671680253199,Remote consultation
+307,44,Male,25.8,8.41,236.1,31.7,821,70.3,0.89,Control,0.1,0,0.8062956994793661,Immediate treatment optimization
+308,57,Male,19.8,7.04,223.0,21.7,1170,67.0,0.81,Control,0.052,1,0.17275114721138884,Continue standard protocol
+309,63,Male,21.2,7.65,205.6,22.3,3596,21.7,0.93,AI-Adaptive,0.056,0,0.8313381397608656,Immediate treatment optimization
+310,31,Female,25.7,9.71,318.6,40.9,3590,44.6,0.67,Control,0.291,0,0.8255766537763093,Immediate treatment optimization
+311,61,Male,25.0,8.64,273.3,30.6,4535,46.8,0.93,Control,0.102,0,0.7878150678401791,Immediate treatment optimization
+312,52,Female,26.5,8.38,232.1,36.8,1819,53.7,0.74,AI-Adaptive,0.139,0,0.8248403572245983,Immediate treatment optimization
+313,51,Female,30.3,8.88,277.3,26.5,2128,65.9,0.86,AI-Adaptive,0.126,1,0.9801032297013155,Immediate treatment optimization
+314,54,Female,24.7,8.45,264.3,30.1,3628,32.3,0.74,Control,0.134,0,0.9972788287983732,Immediate treatment optimization
+315,51,Male,30.4,10.35,320.9,33.4,748,32.9,0.87,Control,0.255,0,0.7351654993265724,Immediate treatment optimization
+316,51,Female,24.7,7.6,163.2,42.5,2932,45.0,0.82,AI-Adaptive,0.086,0,0.14917351226238473,Continue standard protocol
+317,35,Female,31.2,7.46,223.3,28.0,3950,33.4,0.37,AI-Adaptive,0.165,0,0.09016579929926849,Continue standard protocol
+318,44,Male,27.3,6.84,202.4,28.0,1061,12.4,0.78,AI-Adaptive,0.054,0,0.391094556035272,Continue standard protocol
+319,62,Male,25.3,7.85,229.2,38.6,4145,42.3,0.84,AI-Adaptive,0.09,0,0.8059591804317616,Immediate treatment optimization
+320,37,Female,27.3,7.19,205.7,26.3,6214,55.3,0.83,AI-Adaptive,0.057,0,0.2840888685063192,Continue standard protocol
+321,34,Female,25.8,8.76,250.2,32.5,2883,44.8,0.95,AI-Adaptive,0.106,0,0.16471091294215978,Continue standard protocol
+322,33,Male,27.5,8.53,264.5,38.6,2583,52.5,0.87,AI-Adaptive,0.118,0,0.9022531761933864,Immediate treatment optimization
+323,35,Female,30.0,7.21,212.7,24.9,923,50.8,0.9,AI-Adaptive,0.049,0,0.4766985520203696,Remote consultation
+324,61,Female,26.7,9.21,262.2,33.2,3434,32.7,0.69,Control,0.213,0,0.9366545128884448,Immediate treatment optimization
+325,59,Female,25.5,10.32,311.7,45.4,977,45.8,0.59,Control,0.419,0,0.5747258413456457,Remote consultation
+326,64,Female,22.5,8.93,258.4,37.8,2257,26.7,0.59,Control,0.235,1,0.48438952117088885,Remote consultation
+327,45,Female,29.3,5.5,164.3,30.8,2399,38.9,0.55,AI-Adaptive,0.045,0,0.46723417683270496,Remote consultation
+328,42,Male,28.4,10.88,342.0,30.3,250,45.6,0.75,Control,0.365,0,0.4881645433866023,Remote consultation
+329,59,Male,22.3,9.4,254.5,25.5,2306,45.0,0.87,AI-Adaptive,0.156,1,0.03816304822767935,Continue standard protocol
+330,48,Male,30.3,10.85,273.5,22.8,8716,29.5,0.91,Control,0.267,1,0.9152492095730517,Immediate treatment optimization
+331,46,Female,22.2,9.81,276.1,42.8,515,31.9,0.51,AI-Adaptive,0.386,1,0.8719656320042287,Immediate treatment optimization
+332,48,Female,31.1,10.05,285.7,41.5,1751,48.5,0.62,AI-Adaptive,0.357,1,0.3585295577048746,Continue standard protocol
+333,57,Male,29.8,8.75,259.4,25.2,562,54.9,0.59,Control,0.193,0,0.937148084048577,Immediate treatment optimization
+334,55,Female,28.7,8.19,231.5,32.6,1057,42.5,0.82,AI-Adaptive,0.104,0,0.8301613628486996,Immediate treatment optimization
+335,55,Female,25.5,8.95,265.7,31.4,568,41.9,0.57,Control,0.231,0,0.5291212479384114,Remote consultation
+336,52,Female,29.3,7.65,264.3,40.0,1990,56.2,0.8,Control,0.089,0,0.4769632259531087,Remote consultation
+337,38,Male,31.3,9.02,268.6,33.7,2911,35.7,0.65,Control,0.212,0,0.05006973784586177,Continue standard protocol
+338,41,Female,29.4,5.5,173.5,28.5,2312,65.7,0.68,Control,0.033,0,0.8299755489904163,Immediate treatment optimization
+339,30,Male,24.3,8.55,236.8,25.6,1035,28.9,0.82,Control,0.115,0,0.812794451502598,Immediate treatment optimization
+340,30,Male,28.1,10.11,255.4,33.1,1254,57.6,0.96,Control,0.197,0,0.6463602022597232,Remote consultation
+341,63,Male,31.5,8.61,195.1,26.4,2129,51.5,0.62,Control,0.173,0,0.8098055524841071,Immediate treatment optimization
+342,61,Male,35.8,10.57,285.6,32.7,1054,73.9,0.86,Control,0.282,0,0.19974835051831719,Continue standard protocol
+343,54,Male,26.2,8.18,177.4,28.2,815,31.5,0.93,Control,0.079,0,0.1414420699825798,Continue standard protocol
+344,30,Female,30.4,9.7,281.9,27.9,1566,17.0,0.88,AI-Adaptive,0.18,0,0.317464527944576,Continue standard protocol
+345,45,Male,31.5,7.45,200.9,21.5,1026,60.0,0.75,AI-Adaptive,0.073,0,0.3641218821413321,Continue standard protocol
+346,34,Female,23.8,9.65,243.9,34.2,2314,27.3,0.57,Control,0.313,0,0.4496906753679002,Remote consultation
+347,51,Male,34.1,8.78,248.5,30.6,3941,52.4,0.55,AI-Adaptive,0.22,0,0.49626025446183275,Remote consultation
+348,58,Female,22.7,8.24,215.9,43.9,8592,59.2,0.79,AI-Adaptive,0.127,0,0.13361242074220425,Continue standard protocol
+349,32,Female,30.2,5.5,163.0,20.2,2215,49.6,0.83,Control,0.022,0,0.001087121389109269,Continue standard protocol
+350,41,Male,28.2,8.19,243.5,35.1,2664,47.8,0.27,Control,0.285,0,0.23522406112962546,Continue standard protocol
+351,55,Male,27.2,8.76,231.2,29.2,1262,49.8,0.95,AI-Adaptive,0.102,0,0.8166054409475206,Immediate treatment optimization
+352,45,Male,37.2,9.49,261.0,47.3,1310,55.0,0.75,Control,0.247,0,0.30118691715256507,Continue standard protocol
+353,51,Female,25.8,10.37,294.7,35.5,3907,52.0,0.7,Control,0.341,0,0.1854858430565256,Continue standard protocol
+354,58,Female,25.7,10.94,278.2,33.4,1532,30.4,0.76,Control,0.377,1,0.4948536941844478,Remote consultation
+355,43,Male,32.3,10.0,284.3,30.3,1889,66.9,0.57,AI-Adaptive,0.345,0,0.5755764238145864,Remote consultation
+356,57,Female,30.0,7.83,190.6,23.4,3766,45.6,0.66,Control,0.108,0,0.5050300116570133,Remote consultation
+357,34,Male,32.1,8.13,239.0,32.5,1539,51.2,0.71,AI-Adaptive,0.124,0,0.7942892791203315,Immediate treatment optimization
+358,59,Male,27.5,9.39,254.2,19.3,4448,53.5,0.73,Control,0.188,0,0.2966910088411301,Continue standard protocol
+359,34,Female,28.3,9.12,226.6,19.1,2550,58.9,0.77,Control,0.155,0,0.13342017034708953,Continue standard protocol
+360,41,Male,34.6,10.45,281.0,39.0,2376,57.6,0.95,AI-Adaptive,0.245,1,0.1955653883394517,Continue standard protocol
+361,45,Female,23.7,11.48,310.7,17.4,1225,46.6,0.88,Control,0.34,0,0.19358826940266471,Continue standard protocol
+362,55,Male,26.6,11.22,335.5,29.4,2454,45.8,0.56,AI-Adaptive,0.51,0,0.2573461893505735,Continue standard protocol
+363,55,Female,30.2,10.29,291.6,22.7,1398,49.9,0.71,AI-Adaptive,0.293,1,0.6742810946340959,Remote consultation
+364,50,Male,26.2,9.13,236.5,26.8,2396,58.2,0.63,Control,0.215,0,0.34097394389759694,Continue standard protocol
+365,65,Male,24.7,10.12,316.3,33.0,1701,31.6,0.78,Control,0.268,0,0.8743884603411167,Immediate treatment optimization
+366,62,Female,29.5,10.49,306.2,39.2,3230,52.7,0.97,AI-Adaptive,0.242,0,0.27893241255214907,Continue standard protocol
+367,59,Male,32.3,8.32,226.2,39.5,1774,34.4,0.32,AI-Adaptive,0.288,0,0.2863925072755106,Continue standard protocol
+368,52,Female,26.4,7.86,189.0,21.7,6141,67.2,0.97,Control,0.057,0,0.8163319398558367,Immediate treatment optimization
+369,39,Female,26.3,7.58,203.7,25.6,1533,49.4,0.8,Control,0.074,0,0.9068144875629429,Immediate treatment optimization
+370,34,Female,24.4,7.45,204.2,61.7,1312,40.0,0.91,Control,0.082,0,0.26293063332718625,Continue standard protocol
+371,65,Female,25.8,6.84,198.9,27.2,2225,50.1,0.75,Control,0.057,0,0.19562674434359106,Continue standard protocol
+372,63,Female,31.3,8.8,258.5,23.4,3452,45.1,0.71,Control,0.156,0,0.15682780687450137,Continue standard protocol
+373,60,Female,27.3,7.3,220.5,23.9,3436,43.1,0.83,AI-Adaptive,0.059,0,0.454421110965321,Remote consultation
+374,39,Female,23.8,7.56,179.5,26.9,1998,23.3,0.71,AI-Adaptive,0.089,0,0.7288565212902928,Immediate treatment optimization
+375,48,Female,28.0,9.34,265.7,27.4,2216,32.7,0.77,AI-Adaptive,0.186,0,0.9536376524281559,Immediate treatment optimization
+376,61,Male,31.2,8.72,241.0,28.2,2218,43.3,0.76,AI-Adaptive,0.143,0,0.8923261391223942,Immediate treatment optimization
+377,30,Male,24.8,9.02,306.1,31.2,947,24.7,0.86,Control,0.141,0,0.4998516172043339,Remote consultation
+378,34,Female,21.7,10.14,285.2,30.7,3342,38.0,0.82,AI-Adaptive,0.248,0,0.6834133385597454,Remote consultation
+379,33,Male,35.8,9.54,254.7,22.7,850,39.0,0.67,Control,0.231,0,0.22415037755689282,Continue standard protocol
+380,45,Female,21.5,10.32,291.2,34.0,948,35.6,0.82,Control,0.275,0,0.4577234903095718,Remote consultation
+381,53,Male,25.6,8.6,240.6,31.0,1869,54.3,0.34,Control,0.29,0,0.8540565530761727,Immediate treatment optimization
+382,45,Male,27.9,10.43,252.3,34.3,1492,34.4,0.58,Control,0.407,1,0.3281052730233244,Continue standard protocol
+383,31,Female,25.9,8.93,258.2,16.7,2915,46.1,0.98,Control,0.092,0,0.15640475585812819,Continue standard protocol
+384,57,Female,26.7,8.7,237.4,31.2,2365,40.8,0.88,AI-Adaptive,0.116,0,0.2004276540305937,Continue standard protocol
+385,61,Male,29.3,10.25,286.5,15.1,1964,43.6,0.84,Control,0.218,0,0.1799476154935834,Continue standard protocol
+386,56,Female,18.5,7.45,191.1,27.7,920,64.3,0.8,Control,0.07,0,0.028560486410352692,Continue standard protocol
+387,49,Female,21.9,10.93,284.2,36.2,1837,47.2,0.85,Control,0.338,0,0.8595070989168423,Immediate treatment optimization
+388,53,Male,27.2,8.16,246.1,38.5,1752,49.5,0.89,AI-Adaptive,0.095,0,0.18531971836171812,Continue standard protocol
+389,41,Female,25.4,7.04,219.3,32.3,2066,35.8,0.47,Control,0.117,0,0.8250933378921076,Immediate treatment optimization
+390,64,Male,27.5,9.28,268.2,36.0,1397,52.5,0.43,Control,0.341,1,0.08421743345847432,Continue standard protocol
+391,62,Male,27.9,8.05,189.2,26.6,2474,52.0,0.82,Control,0.091,0,0.4939695142123599,Remote consultation
+392,62,Female,18.5,10.93,315.7,27.5,1469,50.9,0.76,AI-Adaptive,0.359,0,0.9803824408765734,Immediate treatment optimization
+393,41,Male,32.1,7.98,187.5,50.5,2339,30.5,0.74,Control,0.132,0,0.4033175041807564,Remote consultation
+394,32,Female,25.0,8.88,235.4,36.6,2915,38.0,0.76,AI-Adaptive,0.168,0,0.6640324437839538,Remote consultation
+395,30,Female,23.5,6.79,207.4,20.0,1312,62.2,0.9,AI-Adaptive,0.037,0,0.4106572832780856,Remote consultation
+396,62,Male,27.8,9.48,278.6,16.9,1138,36.7,0.91,Control,0.138,0,0.022961221139305432,Continue standard protocol
+397,39,Female,27.4,7.57,221.1,25.9,2406,63.8,0.48,AI-Adaptive,0.138,0,0.7779783884951759,Immediate treatment optimization
+398,58,Female,31.8,9.33,287.5,40.5,818,38.4,0.66,AI-Adaptive,0.253,0,0.7794166291824319,Immediate treatment optimization
+399,42,Male,28.1,7.99,234.9,30.3,3523,46.8,0.65,Control,0.128,0,0.0909700022668537,Continue standard protocol
+400,41,Female,31.6,6.04,128.7,10.0,1820,42.8,0.63,Control,0.039,0,0.8388425899641044,Immediate treatment optimization
+401,60,Female,23.2,8.66,235.1,28.5,1688,34.9,0.66,Control,0.168,0,0.032484294736767505,Continue standard protocol
+402,31,Female,27.6,8.6,240.0,30.0,2509,35.0,0.73,Control,0.146,0,0.8892087192921069,Immediate treatment optimization
+403,64,Female,22.5,9.56,264.5,11.2,2417,36.5,0.57,AI-Adaptive,0.248,1,0.5114397866842441,Remote consultation
+404,52,Male,27.4,10.37,278.0,31.0,1815,46.8,0.74,AI-Adaptive,0.309,0,0.5692348305306696,Remote consultation
+405,46,Female,26.5,10.79,281.5,22.8,3063,55.7,0.72,Control,0.348,1,0.4440102469582945,Remote consultation
+406,55,Female,26.4,9.54,315.1,16.9,1208,46.0,0.85,Control,0.158,0,0.07741618320322041,Continue standard protocol
+407,37,Female,26.4,8.83,239.5,42.9,2772,44.6,0.94,Control,0.125,0,0.610890554993939,Remote consultation
+408,58,Female,29.9,6.79,237.2,21.5,947,59.5,0.73,AI-Adaptive,0.054,0,0.6393449030044838,Remote consultation
+409,55,Female,20.6,8.74,221.9,24.3,2456,45.5,0.87,Control,0.113,0,0.9919873968099555,Immediate treatment optimization
+410,39,Female,23.4,8.76,258.4,25.0,1485,38.5,0.47,AI-Adaptive,0.238,0,0.7222351106459001,Immediate treatment optimization
+411,55,Female,26.8,8.26,235.9,30.0,823,33.0,0.64,AI-Adaptive,0.147,0,0.5328990192065188,Remote consultation
+412,63,Female,22.3,9.26,240.8,44.2,2109,60.2,0.76,AI-Adaptive,0.214,0,0.8296036907468805,Immediate treatment optimization
+413,36,Female,27.2,9.85,266.4,21.0,1771,41.0,0.55,AI-Adaptive,0.312,0,0.36930588237873985,Continue standard protocol
+414,33,Female,26.8,7.52,210.3,27.0,716,38.1,0.79,Control,0.074,0,0.9776469212114042,Immediate treatment optimization
+415,40,Female,21.4,7.5,193.1,30.1,509,37.0,0.9,Control,0.06,0,0.04358848930098658,Continue standard protocol
+416,58,Male,21.2,8.33,228.1,22.9,1650,59.6,0.62,Control,0.147,0,0.5046345386972936,Remote consultation
+417,65,Male,18.5,7.76,170.0,26.1,4774,38.1,0.66,AI-Adaptive,0.107,1,0.6373572206648037,Remote consultation
+418,54,Male,22.1,6.53,197.1,33.9,2192,56.9,0.87,AI-Adaptive,0.04,1,0.8432231664140015,Immediate treatment optimization
+419,50,Female,27.1,7.3,228.9,23.8,1211,42.2,0.73,Control,0.072,0,0.15196279451177086,Continue standard protocol
+420,65,Female,27.6,7.02,205.6,26.6,3460,30.5,0.58,AI-Adaptive,0.087,0,0.8131105246885953,Immediate treatment optimization
+421,39,Female,27.8,9.95,323.9,28.3,3116,41.0,0.91,AI-Adaptive,0.192,0,0.9012462785036633,Immediate treatment optimization
+422,38,Male,23.9,10.54,308.8,30.6,3878,44.6,0.78,AI-Adaptive,0.31,0,0.6254237442505792,Remote consultation
+423,53,Female,26.9,7.19,224.2,31.7,2725,43.6,0.8,Control,0.064,0,0.1506499908595219,Continue standard protocol
+424,64,Male,28.6,9.16,281.2,35.6,3076,43.3,0.32,Control,0.38,1,0.975785035779668,Immediate treatment optimization
+425,64,Male,21.9,9.55,212.4,45.0,2804,41.1,0.81,Control,0.225,1,0.35028791526129,Continue standard protocol
+426,65,Female,27.5,6.71,196.4,7.9,1358,35.6,0.39,AI-Adaptive,0.089,0,0.2004288852113173,Continue standard protocol
+427,47,Female,29.6,8.69,215.7,28.2,677,45.1,0.61,Control,0.186,1,0.9885943868371462,Immediate treatment optimization
+428,61,Male,25.0,11.54,299.5,20.3,1323,51.5,0.56,Control,0.527,0,0.8526779133497893,Immediate treatment optimization
+429,53,Male,31.2,9.31,240.5,27.0,3509,27.4,0.92,Control,0.138,0,0.47520814765189556,Remote consultation
+430,52,Male,25.1,8.21,223.6,36.8,1439,60.6,0.4,AI-Adaptive,0.236,0,0.5884019613095706,Remote consultation
+431,61,Male,23.6,7.83,232.2,39.5,1657,5.0,0.69,AI-Adaptive,0.121,0,0.13037532205172908,Continue standard protocol
+432,41,Female,29.2,6.07,178.6,38.8,898,45.9,0.53,AI-Adaptive,0.068,0,0.418498744062782,Remote consultation
+433,42,Male,35.1,9.06,253.4,40.2,1299,50.6,0.56,AI-Adaptive,0.266,0,0.012078917922280552,Continue standard protocol
+434,52,Female,27.3,10.84,318.0,30.2,1798,37.8,0.6,AI-Adaptive,0.439,1,0.02909556547932357,Continue standard protocol
+435,54,Female,29.5,7.52,226.2,41.0,2430,19.5,0.85,Control,0.076,0,0.10635988576776667,Continue standard protocol
+436,64,Male,25.0,6.18,181.9,41.7,1373,43.8,0.94,Control,0.032,0,0.01940307417863474,Continue standard protocol
+437,59,Male,22.0,7.7,181.1,30.0,1317,47.0,0.65,AI-Adaptive,0.111,0,0.3906276949382189,Continue standard protocol
+438,46,Male,27.7,9.56,252.9,39.7,2997,31.2,0.63,AI-Adaptive,0.289,0,0.9989662413183816,Immediate treatment optimization
+439,49,Male,28.3,7.99,224.2,30.1,2198,35.0,0.81,Control,0.093,0,0.8454458220338891,Immediate treatment optimization
+440,54,Male,25.6,7.52,225.2,41.0,2367,56.6,0.63,AI-Adaptive,0.118,1,0.43495279881235627,Remote consultation
+441,51,Female,29.5,8.52,212.0,28.2,4523,46.4,0.89,AI-Adaptive,0.101,1,0.001513854177129903,Continue standard protocol
+442,42,Male,24.4,8.78,245.6,25.3,1335,26.9,0.7,AI-Adaptive,0.16,0,0.5742420144221144,Remote consultation
+443,48,Female,23.4,6.83,159.9,19.5,1756,50.4,0.47,AI-Adaptive,0.092,0,0.8315554424621701,Immediate treatment optimization
+444,65,Male,31.2,8.24,251.2,28.9,2517,33.8,0.79,AI-Adaptive,0.108,0,0.6861766116218999,Remote consultation
+445,41,Female,31.3,7.9,226.0,30.4,1072,35.7,0.48,Control,0.169,0,0.14185823023032695,Continue standard protocol
+446,48,Female,24.5,7.73,189.5,21.5,2074,47.4,0.51,Control,0.134,1,0.2615976158715265,Continue standard protocol
+447,41,Female,33.9,7.28,176.8,26.8,1832,46.3,0.66,AI-Adaptive,0.085,0,0.3914378540545561,Continue standard protocol
+448,38,Female,25.9,9.63,277.4,26.6,9570,40.2,0.95,AI-Adaptive,0.151,0,0.8192056685290421,Immediate treatment optimization
+449,36,Female,27.3,7.73,243.9,21.5,1920,38.9,0.59,Control,0.115,1,0.7992182290759376,Immediate treatment optimization
+450,57,Female,26.7,6.11,149.1,36.5,3620,42.0,0.87,AI-Adaptive,0.033,0,0.8324604900514341,Immediate treatment optimization
+451,43,Female,29.1,8.82,262.7,40.2,2975,35.6,0.97,Control,0.114,0,0.3323049826628819,Continue standard protocol
+452,60,Female,28.1,9.37,251.5,38.5,903,58.1,0.71,AI-Adaptive,0.232,0,0.29225815011723555,Continue standard protocol
+453,48,Male,28.0,7.54,227.6,29.1,714,26.2,0.83,Control,0.07,0,0.0018724445350538632,Continue standard protocol
+454,45,Male,22.9,7.83,232.9,29.7,2097,42.1,0.73,Control,0.1,0,0.2007746433286337,Continue standard protocol
+455,34,Female,20.2,7.72,219.3,21.1,3845,27.5,0.72,AI-Adaptive,0.088,0,0.03216510821132401,Continue standard protocol
+456,64,Female,31.6,8.08,189.6,32.4,2149,56.2,0.65,AI-Adaptive,0.136,1,0.5557119048055332,Remote consultation
+457,41,Female,24.8,9.83,288.9,32.4,1896,42.1,0.69,Control,0.274,0,0.31912152385019554,Continue standard protocol
+458,54,Female,26.8,8.36,244.1,52.9,1525,32.3,0.53,AI-Adaptive,0.234,1,0.9070028426292166,Immediate treatment optimization
+459,50,Female,28.3,9.51,274.5,39.4,817,53.2,0.73,Control,0.24,1,0.330380293518308,Continue standard protocol
+460,65,Male,33.5,7.34,209.4,32.0,1016,17.5,0.66,AI-Adaptive,0.093,0,0.3379216308857561,Continue standard protocol
+461,52,Male,27.6,8.04,207.5,29.1,683,48.4,0.72,AI-Adaptive,0.113,0,0.7853164153100876,Immediate treatment optimization
+462,45,Male,25.4,9.64,291.6,39.1,933,58.8,0.61,AI-Adaptive,0.306,1,0.3949785594166233,Continue standard protocol
+463,43,Male,24.9,7.53,228.8,22.5,1319,47.2,0.77,Control,0.074,1,0.7554195844975476,Immediate treatment optimization
+464,60,Female,26.9,9.71,250.4,39.4,2880,38.9,0.87,Control,0.206,1,0.7538204121129455,Immediate treatment optimization
+465,34,Male,23.4,7.75,243.3,21.4,1384,30.1,0.46,AI-Adaptive,0.149,0,0.9717770133798677,Immediate treatment optimization
+466,64,Female,27.1,8.11,229.7,25.3,2108,58.0,0.86,Control,0.085,0,0.5741366957483104,Remote consultation
+467,52,Male,26.8,10.5,296.6,16.5,1961,56.1,0.6,AI-Adaptive,0.355,1,0.2865476695605601,Continue standard protocol
+468,58,Female,33.6,7.98,219.9,34.6,2439,37.3,0.55,Control,0.16,0,0.6926544915496019,Remote consultation
+469,40,Female,26.7,8.67,241.2,32.1,972,37.6,0.79,AI-Adaptive,0.138,0,0.9524822429631471,Immediate treatment optimization
+470,47,Male,19.3,9.24,286.1,26.5,3414,59.2,0.84,Control,0.155,0,0.5455849564748296,Remote consultation
+471,41,Female,37.7,8.77,266.2,23.1,777,51.4,0.86,Control,0.115,0,0.12293683206872796,Continue standard protocol
+472,38,Male,30.8,8.81,266.9,41.6,1382,23.6,0.76,Control,0.171,0,0.3210417517552234,Continue standard protocol
+473,39,Male,35.3,8.43,239.7,29.0,1786,42.7,0.79,Control,0.119,0,0.6266551952024579,Remote consultation
+474,46,Male,22.4,6.94,212.1,23.3,2853,42.2,0.83,Control,0.048,0,0.47210311959798024,Remote consultation
+475,36,Male,26.1,8.92,233.1,45.3,4136,48.0,0.67,Control,0.219,1,0.6273359969572295,Remote consultation
+476,42,Male,29.7,7.62,225.0,24.5,2866,45.1,0.92,AI-Adaptive,0.058,0,0.768516462812381,Immediate treatment optimization
+477,38,Female,29.1,9.43,261.0,39.6,4228,38.8,0.81,AI-Adaptive,0.203,0,0.336186827246862,Continue standard protocol
+478,56,Female,28.2,10.15,243.0,20.9,1099,47.1,0.84,Control,0.22,0,0.7829564136809839,Immediate treatment optimization
+479,31,Female,18.5,6.33,145.5,25.3,3693,39.6,0.85,AI-Adaptive,0.034,0,0.3689566706960943,Continue standard protocol
+480,34,Male,20.2,10.15,270.9,34.7,3332,86.0,0.83,Control,0.254,1,0.21857563532258562,Continue standard protocol
+481,58,Female,33.1,8.01,232.6,29.4,429,46.5,0.66,AI-Adaptive,0.125,0,0.9071212181121079,Immediate treatment optimization
+482,48,Male,33.8,8.34,220.3,31.6,1584,44.8,0.68,AI-Adaptive,0.144,0,0.6709319659763968,Remote consultation
+483,37,Male,26.6,7.41,195.7,24.8,2595,67.1,0.88,AI-Adaptive,0.057,0,0.886738250548053,Immediate treatment optimization
+484,30,Female,32.6,8.73,259.7,17.7,1327,28.6,0.71,AI-Adaptive,0.142,0,0.3916690507012759,Continue standard protocol
+485,51,Male,22.9,8.58,229.1,41.5,942,43.7,0.95,Control,0.107,0,0.9106193382773964,Immediate treatment optimization
+486,46,Female,23.8,9.79,300.7,27.4,6429,33.6,0.81,AI-Adaptive,0.211,0,0.9778654908710703,Immediate treatment optimization
+487,36,Female,22.6,7.61,236.4,32.3,1933,52.6,0.47,AI-Adaptive,0.153,0,0.7946453008347922,Immediate treatment optimization
+488,54,Male,23.6,10.49,294.2,36.7,1965,39.1,0.77,AI-Adaptive,0.324,1,0.2067200235441674,Continue standard protocol
+489,33,Male,29.9,9.3,275.5,33.2,824,52.0,0.84,Control,0.17,0,0.23704150127684265,Continue standard protocol
+490,65,Male,23.6,8.61,253.4,24.6,1252,51.1,0.53,AI-Adaptive,0.2,1,0.9343138045758433,Immediate treatment optimization
+491,35,Female,36.0,8.28,226.9,39.1,1055,54.4,0.61,Control,0.172,0,0.47524094756279245,Remote consultation
+492,60,Male,28.8,8.13,244.9,34.3,3454,51.3,0.68,Control,0.134,0,0.44467239579501694,Remote consultation
+493,48,Male,31.3,8.21,250.1,31.8,2447,42.3,0.57,AI-Adaptive,0.167,0,0.6456430070459542,Remote consultation
+494,56,Male,29.0,8.7,224.6,31.1,1284,28.2,0.72,Control,0.158,0,0.5683303141721107,Remote consultation
+495,39,Female,31.9,8.25,234.1,43.4,2531,57.1,0.63,AI-Adaptive,0.171,1,0.4008910154758547,Remote consultation
+496,55,Male,23.5,7.73,219.3,23.8,1553,61.9,0.74,AI-Adaptive,0.088,0,0.285696271781532,Continue standard protocol
+497,48,Male,32.8,8.71,260.9,33.8,2081,33.7,0.66,AI-Adaptive,0.182,0,0.6655249089884032,Remote consultation
+498,32,Female,27.6,7.5,201.1,25.0,2075,53.8,0.69,AI-Adaptive,0.088,0,0.7410484258177589,Immediate treatment optimization
+499,42,Female,31.8,8.89,237.0,14.5,2327,31.0,0.69,AI-Adaptive,0.154,0,0.3453874458900562,Continue standard protocol
+500,57,Male,21.2,8.23,233.8,14.2,2164,47.4,0.64,AI-Adaptive,0.123,0,0.8326186615533204,Immediate treatment optimization
+501,49,Male,27.7,9.34,285.1,22.8,2328,49.9,0.64,AI-Adaptive,0.223,0,0.06045557510875055,Continue standard protocol
+502,57,Male,27.6,9.69,247.3,24.9,3841,39.9,0.87,Control,0.177,0,0.6436861180585723,Remote consultation
+503,37,Female,24.5,9.69,250.8,47.6,2655,46.1,0.8,Control,0.248,1,0.3966230216214115,Continue standard protocol
+504,30,Male,28.3,8.88,238.2,35.6,1477,55.2,0.48,AI-Adaptive,0.27,0,0.9162106496858007,Immediate treatment optimization
+505,32,Female,33.2,9.02,245.7,36.5,1705,43.7,0.9,AI-Adaptive,0.138,0,0.11757811817203523,Continue standard protocol
+506,42,Female,24.2,8.11,191.8,24.0,3782,36.9,0.58,Control,0.145,0,0.3372816171600984,Continue standard protocol
+507,57,Female,30.8,9.31,290.6,31.5,1934,30.3,0.62,AI-Adaptive,0.247,0,0.7863595119977772,Immediate treatment optimization
+508,54,Male,22.5,9.45,262.0,48.9,1445,40.3,0.66,Control,0.285,1,0.09148263209852026,Continue standard protocol
+509,62,Female,35.4,6.62,179.8,19.1,1238,30.9,0.67,Control,0.054,0,0.06309488439864375,Continue standard protocol
+510,35,Female,30.1,8.95,283.1,34.6,2130,40.5,0.73,AI-Adaptive,0.18,1,0.02014111593716872,Continue standard protocol
+511,61,Female,33.9,10.14,298.3,44.1,1083,39.4,0.74,AI-Adaptive,0.316,0,0.27852555758098885,Continue standard protocol
+512,50,Male,29.7,8.07,215.3,37.3,3908,54.6,0.74,Control,0.12,0,0.66151915196408,Remote consultation
+513,45,Female,28.6,7.81,222.0,44.1,970,45.9,0.53,Control,0.169,0,0.6888682654404751,Remote consultation
+514,50,Male,30.2,8.0,223.2,31.4,4389,75.6,0.74,AI-Adaptive,0.109,1,0.7617963330881702,Immediate treatment optimization
+515,40,Male,26.5,6.69,216.3,34.4,1524,20.8,0.69,AI-Adaptive,0.064,0,0.37007742506158137,Continue standard protocol
+516,65,Male,20.5,8.65,238.9,30.9,948,48.8,0.67,Control,0.169,0,0.22113500501279715,Continue standard protocol
+517,64,Female,28.8,8.54,210.3,33.7,2025,39.6,0.97,Control,0.093,0,0.25535988086385253,Continue standard protocol
+518,48,Male,24.0,8.74,207.2,22.1,1021,33.5,0.75,Control,0.139,0,0.46662712193140476,Remote consultation
+519,49,Male,22.6,9.0,281.5,37.2,1846,44.6,0.64,AI-Adaptive,0.221,0,0.5345727745919221,Remote consultation
+520,47,Male,29.5,7.54,195.3,31.5,1279,43.7,0.64,AI-Adaptive,0.106,0,0.34116464441861327,Continue standard protocol
+521,43,Male,25.9,8.83,260.6,31.0,3188,57.9,0.94,AI-Adaptive,0.11,1,0.5299801586296691,Remote consultation
+522,44,Female,31.1,9.03,254.3,44.3,1963,46.1,0.92,Control,0.145,0,0.8999282955587702,Immediate treatment optimization
+523,60,Female,23.8,7.91,213.1,27.4,886,36.7,0.65,Control,0.119,0,0.9414615355108158,Immediate treatment optimization
+524,30,Male,25.1,9.0,246.8,39.8,1264,49.0,0.84,AI-Adaptive,0.158,0,0.032028978123675,Continue standard protocol
+525,32,Male,31.6,8.6,272.5,41.2,2760,42.2,0.51,Control,0.241,1,0.7942323438560502,Immediate treatment optimization
+526,45,Female,28.1,7.74,187.8,35.8,3914,31.5,0.67,Control,0.115,0,0.7353107124624916,Immediate treatment optimization
+527,52,Male,21.1,8.84,239.8,22.3,1760,42.0,0.83,Control,0.125,0,0.48573991294460894,Remote consultation
+528,40,Male,28.0,8.15,246.3,33.0,966,47.8,0.42,Control,0.215,0,0.423469301268084,Remote consultation
+529,41,Female,32.9,9.34,235.9,45.6,3403,45.9,0.45,Control,0.365,0,0.5839223127454124,Remote consultation
+530,39,Female,25.1,8.21,256.2,15.8,2753,49.0,0.44,AI-Adaptive,0.181,0,0.9298175990379647,Immediate treatment optimization
+531,61,Male,29.4,6.95,212.4,28.0,3960,38.7,0.39,AI-Adaptive,0.125,0,0.969466775760443,Immediate treatment optimization
+532,45,Female,23.6,8.82,252.4,39.6,2152,48.8,0.84,AI-Adaptive,0.145,0,0.6794971435221117,Remote consultation
+533,37,Male,26.5,8.78,235.8,29.0,1323,46.4,0.75,AI-Adaptive,0.151,0,0.7421999798195689,Immediate treatment optimization
+534,41,Female,31.4,7.2,173.4,35.2,2465,46.5,0.7,AI-Adaptive,0.083,0,0.00396166643679885,Continue standard protocol
+535,53,Male,27.9,9.4,277.3,42.1,2199,45.4,0.54,Control,0.318,0,0.40410566915676016,Remote consultation
+536,57,Male,32.2,9.34,316.5,33.4,1281,71.1,0.72,Control,0.215,0,0.5956823737327132,Remote consultation
+537,37,Male,28.7,7.46,211.8,33.6,2037,58.3,0.78,Control,0.079,0,0.9872531750150796,Immediate treatment optimization
+538,57,Female,35.9,7.71,179.4,29.6,1608,48.5,0.95,AI-Adaptive,0.06,0,0.09886538747183116,Continue standard protocol
+539,65,Female,20.7,8.33,242.4,32.5,2825,35.4,0.75,Control,0.127,0,0.8440117424390432,Immediate treatment optimization
+540,55,Male,26.1,7.59,229.7,46.7,2429,41.5,0.78,Control,0.097,0,0.8099879025767655,Immediate treatment optimization
+541,37,Male,22.7,9.27,241.2,29.6,962,64.4,0.63,Control,0.235,0,0.6169585726396568,Remote consultation
+542,57,Female,22.9,8.68,230.1,27.0,906,38.2,0.28,AI-Adaptive,0.317,0,0.8030049112007198,Immediate treatment optimization
+543,57,Male,23.0,7.19,186.4,37.3,1713,43.0,0.42,Control,0.145,0,0.8773480231556726,Immediate treatment optimization
+544,65,Male,27.7,7.51,199.7,22.5,1844,42.3,0.74,Control,0.077,0,0.507716011416832,Remote consultation
+545,56,Female,27.9,9.93,274.6,25.8,2854,49.4,0.69,AI-Adaptive,0.27,1,0.9229415239364362,Immediate treatment optimization
+546,46,Male,28.7,10.34,272.3,25.8,2460,39.8,0.66,AI-Adaptive,0.331,0,0.37472917269370754,Continue standard protocol
+547,38,Female,22.5,9.15,231.5,27.8,4338,47.1,0.6,Control,0.231,1,0.8978854188570156,Immediate treatment optimization
+548,62,Female,25.7,8.25,234.5,28.2,1366,40.0,0.82,AI-Adaptive,0.102,0,0.3770922184838358,Continue standard protocol
+549,49,Male,23.1,7.97,219.5,35.2,1320,60.8,0.8,Control,0.099,0,0.331398065691328,Continue standard protocol
+550,42,Male,30.7,9.16,247.8,27.5,1016,36.8,0.66,AI-Adaptive,0.208,1,0.39140581812714037,Continue standard protocol
+551,57,Male,23.5,8.59,242.2,36.0,2835,56.7,0.85,Control,0.123,1,0.6446977790014927,Remote consultation
+552,58,Female,26.1,6.57,153.6,35.2,1832,38.0,0.48,Control,0.094,0,0.9910543879765804,Immediate treatment optimization
+553,42,Female,29.2,9.74,278.0,25.6,595,34.8,0.75,AI-Adaptive,0.225,1,0.6659009823211413,Remote consultation
+554,64,Female,24.5,10.11,274.8,37.5,2041,36.6,0.77,AI-Adaptive,0.282,0,0.8437109346694216,Immediate treatment optimization
+555,35,Male,29.8,9.38,267.4,38.1,2121,24.5,0.84,AI-Adaptive,0.185,0,0.4649771036620879,Remote consultation
+556,47,Female,33.4,7.19,209.3,15.3,1658,50.3,0.67,AI-Adaptive,0.07,0,0.03002334840007337,Continue standard protocol
+557,34,Female,27.8,7.74,239.3,32.4,2160,31.0,0.93,Control,0.066,0,0.6132372375653719,Remote consultation
+558,54,Female,30.6,6.27,177.6,24.7,869,40.7,0.79,AI-Adaptive,0.038,0,0.493155283090126,Remote consultation
+559,31,Female,18.7,10.42,313.1,41.9,4840,54.1,0.67,Control,0.38,0,0.8961654163973523,Immediate treatment optimization
+560,39,Female,25.3,8.07,219.5,25.5,2271,53.8,0.69,Control,0.117,0,0.10503015373370927,Continue standard protocol
+561,59,Female,27.7,11.3,310.9,20.7,624,27.8,0.77,Control,0.382,0,0.8746090109968158,Immediate treatment optimization
+562,34,Female,22.8,10.85,302.0,31.0,1802,48.7,0.68,AI-Adaptive,0.4,0,0.9384849761084292,Immediate treatment optimization
+563,62,Male,27.8,7.42,223.2,22.5,2308,58.7,0.72,Control,0.077,0,0.9877841826086627,Immediate treatment optimization
+564,30,Male,31.2,7.65,226.8,36.6,927,37.4,0.88,Control,0.073,0,0.4208537370698866,Remote consultation
+565,47,Female,19.5,9.06,256.4,23.9,2490,51.2,0.45,AI-Adaptive,0.275,0,0.4354980374894749,Remote consultation
+566,61,Male,22.2,6.39,154.4,28.2,4957,31.3,0.83,Control,0.038,0,0.24205412002968152,Continue standard protocol
+567,40,Female,27.7,7.97,235.4,42.3,1228,49.6,0.82,Control,0.103,0,0.6289019958011379,Remote consultation
+568,50,Female,28.8,7.85,202.6,38.1,2338,46.6,0.72,Control,0.113,0,0.3552623526610128,Continue standard protocol
+569,55,Female,30.0,10.72,281.8,34.7,2049,52.9,0.67,AI-Adaptive,0.399,0,0.17281480623646772,Continue standard protocol
+570,54,Male,27.4,8.69,220.6,28.6,3232,52.2,0.75,Control,0.145,0,0.7797426016632409,Immediate treatment optimization
+571,51,Male,28.8,8.16,226.8,32.8,1694,28.8,0.82,Control,0.102,0,0.41972511949066316,Remote consultation
+572,56,Male,30.6,7.74,241.0,35.6,953,46.6,0.74,Control,0.1,0,0.7204857485471767,Immediate treatment optimization
+573,42,Female,25.3,9.57,248.7,22.3,3110,62.4,0.91,AI-Adaptive,0.152,0,0.9112068783981323,Immediate treatment optimization
+574,62,Female,24.6,7.9,254.8,37.1,988,18.8,0.65,AI-Adaptive,0.131,0,0.911240809283303,Immediate treatment optimization
+575,63,Female,26.3,8.44,254.5,21.5,5352,56.6,0.6,AI-Adaptive,0.158,0,0.5463461735623498,Remote consultation
+576,64,Male,27.8,7.73,187.1,33.6,2531,64.2,0.83,Control,0.082,0,0.8942758395918566,Immediate treatment optimization
+577,30,Female,24.4,6.68,179.4,20.0,1262,27.2,0.85,Control,0.039,0,0.333744393822187,Continue standard protocol
+578,50,Female,25.4,7.3,183.6,44.6,3516,37.0,0.67,Control,0.102,0,0.4133289751970466,Remote consultation
+579,35,Male,28.6,7.9,234.5,36.0,1798,51.2,0.89,Control,0.081,0,0.7294311835486692,Immediate treatment optimization
+580,57,Female,27.6,8.18,209.3,17.0,1583,34.4,0.57,Control,0.142,0,0.626791799857874,Remote consultation
+581,46,Male,26.3,8.24,198.3,29.2,1202,61.4,0.73,AI-Adaptive,0.122,0,0.054473917952555406,Continue standard protocol
+582,34,Male,20.0,8.39,228.4,25.6,586,57.7,0.76,Control,0.119,0,0.13776900264155012,Continue standard protocol
+583,60,Female,27.0,7.91,244.9,25.0,2598,28.4,0.53,Control,0.146,0,0.4481063978925187,Remote consultation
+584,34,Male,23.1,10.12,279.5,32.0,681,36.1,0.73,AI-Adaptive,0.288,1,0.3536273624110725,Continue standard protocol
+585,32,Female,30.9,9.64,277.9,23.4,1123,54.2,0.39,AI-Adaptive,0.372,1,0.9781925269001328,Immediate treatment optimization
+586,52,Female,25.8,8.34,242.3,36.2,2344,53.8,0.69,Control,0.148,0,0.03275899106464808,Continue standard protocol
+587,39,Female,23.0,8.81,216.4,35.2,1339,71.6,0.85,AI-Adaptive,0.136,0,0.6656384450885299,Remote consultation
+588,39,Male,26.8,8.05,207.4,32.2,1987,34.4,0.67,AI-Adaptive,0.129,0,0.5404208047096969,Remote consultation
+589,48,Female,32.1,5.5,154.1,28.2,873,62.5,0.94,AI-Adaptive,0.019,0,0.4380851696085628,Remote consultation
+590,46,Female,29.5,8.52,227.4,35.1,1467,34.0,0.63,Control,0.178,1,0.6157082918671426,Remote consultation
+591,50,Female,27.9,8.87,282.4,37.2,1994,51.0,0.66,AI-Adaptive,0.201,0,0.3082055325005174,Continue standard protocol
+592,43,Male,21.7,6.56,159.1,32.1,1022,55.7,0.96,Control,0.033,0,0.4077256076128005,Remote consultation
+593,38,Male,33.5,9.1,236.6,19.5,4973,9.1,0.82,AI-Adaptive,0.14,1,0.24531440121651094,Continue standard protocol
+594,30,Female,24.5,8.16,234.3,23.6,1233,55.9,0.92,Control,0.076,0,0.4168890105209889,Remote consultation
+595,42,Male,30.7,8.91,236.9,27.8,4134,61.6,0.81,Control,0.142,0,0.3695950836025791,Continue standard protocol
+596,33,Female,25.7,8.2,171.8,16.9,1635,58.2,0.67,Control,0.118,0,0.6448438706956773,Remote consultation
+597,30,Female,30.4,10.0,318.7,33.4,706,69.6,0.83,AI-Adaptive,0.236,0,0.8497448163443334,Immediate treatment optimization
+598,61,Female,32.2,8.77,224.1,41.0,914,56.6,0.74,AI-Adaptive,0.173,0,0.2252340037230579,Continue standard protocol
+599,63,Female,29.6,9.7,282.8,40.9,2010,38.6,0.85,AI-Adaptive,0.215,0,0.5751284710252318,Remote consultation
+600,57,Female,30.0,9.8,249.3,36.1,3360,59.9,0.91,Control,0.193,0,0.19023897828349212,Continue standard protocol
+601,60,Female,26.6,7.16,183.2,34.7,5228,37.9,0.94,AI-Adaptive,0.049,0,0.4195190304730605,Remote consultation
+602,37,Female,25.3,7.61,180.6,46.6,1953,46.0,0.88,AI-Adaptive,0.08,0,0.23212128411569577,Continue standard protocol
+603,55,Female,27.6,9.04,238.3,36.8,892,55.0,0.59,Control,0.243,1,0.023025572457626597,Continue standard protocol
+604,63,Male,25.6,8.06,212.8,36.9,2137,50.4,0.81,AI-Adaptive,0.104,1,0.08112003078364516,Continue standard protocol
+605,32,Male,36.9,8.21,227.2,18.3,1102,61.2,0.74,Control,0.105,1,0.06761256909331392,Continue standard protocol
+606,41,Female,23.0,10.04,273.7,41.4,2288,74.9,0.56,AI-Adaptive,0.386,0,0.5887262699298953,Remote consultation
+607,30,Male,31.0,8.13,198.8,32.4,1028,31.4,0.43,Control,0.208,0,0.6457873001736095,Remote consultation
+608,34,Male,29.1,7.34,195.0,28.5,516,41.1,0.74,Control,0.076,0,0.5535657731571074,Remote consultation
+609,59,Male,27.9,7.5,238.9,27.4,3984,48.8,0.78,AI-Adaptive,0.075,0,0.6877873723715375,Remote consultation
+610,59,Female,32.9,11.12,337.9,27.6,1578,39.4,0.81,Control,0.358,0,0.9558559757548445,Immediate treatment optimization
+611,46,Female,28.2,8.29,241.2,40.1,1863,44.1,0.92,AI-Adaptive,0.097,0,0.5468563462699124,Remote consultation
+612,52,Female,24.5,6.86,205.3,29.1,3288,54.3,0.73,AI-Adaptive,0.061,0,0.0926133975689103,Continue standard protocol
+613,44,Female,28.2,6.38,219.9,25.5,5582,52.7,0.71,AI-Adaptive,0.048,0,0.7531578789392575,Immediate treatment optimization
+614,50,Female,26.3,7.75,228.4,23.6,2785,48.0,0.77,AI-Adaptive,0.083,0,0.21555466576823457,Continue standard protocol
+615,43,Male,29.0,8.26,244.2,31.5,1923,46.8,0.67,Control,0.141,0,0.12142922449279592,Continue standard protocol
+616,31,Female,30.3,9.64,238.6,27.1,2387,42.3,0.74,Control,0.223,0,0.5515921264838077,Remote consultation
+617,40,Male,23.6,9.52,244.3,25.4,1515,61.9,0.86,Control,0.168,0,0.8244958195242958,Immediate treatment optimization
+618,63,Female,31.8,8.49,237.1,18.9,1848,65.0,0.83,AI-Adaptive,0.102,0,0.12105110602045177,Continue standard protocol
+619,63,Female,26.0,7.95,206.5,37.0,1972,57.2,0.69,AI-Adaptive,0.124,0,0.7192735174354215,Immediate treatment optimization
+620,47,Male,28.8,8.91,229.5,28.7,1128,31.2,0.41,Control,0.288,0,0.6207552007394654,Remote consultation
+621,59,Male,29.5,6.4,161.6,19.8,1831,41.9,0.85,Control,0.033,0,0.4145659740750881,Remote consultation
+622,44,Male,28.5,10.88,276.2,28.6,2254,47.4,0.72,AI-Adaptive,0.376,1,0.1408613767357919,Continue standard protocol
+623,56,Male,26.6,9.28,244.0,34.5,2466,33.7,0.5,AI-Adaptive,0.303,0,0.5760676401277267,Remote consultation
+624,63,Male,25.0,9.54,273.9,31.0,2351,45.9,0.56,AI-Adaptive,0.297,0,0.015701411441128243,Continue standard protocol
+625,62,Female,25.9,7.21,237.8,31.5,810,45.3,0.66,Control,0.086,0,0.3386554200369748,Continue standard protocol
+626,53,Female,33.3,10.04,297.1,31.5,3780,58.0,0.67,AI-Adaptive,0.305,0,0.9513767985540921,Immediate treatment optimization
+627,44,Female,23.5,7.95,235.3,19.7,3597,39.0,0.71,Control,0.099,0,0.447319823621957,Remote consultation
+628,59,Female,24.1,7.36,173.6,36.3,1707,59.0,0.5,AI-Adaptive,0.134,0,0.9149856321607864,Immediate treatment optimization
+629,46,Female,23.9,8.45,239.0,16.4,2376,33.5,0.61,Control,0.148,0,0.4858076032199692,Remote consultation
+630,34,Female,27.5,8.42,234.4,33.6,1588,35.2,0.95,AI-Adaptive,0.091,0,0.2777411120579417,Continue standard protocol
+631,58,Male,20.9,7.21,207.7,34.3,2839,40.4,0.96,Control,0.048,1,0.4967360898005099,Remote consultation
+632,33,Female,21.6,7.43,200.8,27.5,1109,45.6,0.77,Control,0.074,0,0.9654169657977744,Immediate treatment optimization
+633,39,Male,26.0,7.33,238.5,32.8,4046,16.0,0.45,Control,0.14,0,0.5008917674215424,Remote consultation
+634,46,Female,21.8,7.34,206.6,27.2,2755,50.5,0.67,AI-Adaptive,0.086,0,0.9611133046382105,Immediate treatment optimization
+635,39,Female,22.2,8.03,227.8,32.7,2794,65.5,0.74,Control,0.112,0,0.08129286646134914,Continue standard protocol
+636,46,Female,21.9,6.83,152.0,36.2,1698,52.8,0.25,Control,0.167,0,0.6361126197591002,Remote consultation
+637,49,Male,23.6,7.67,212.6,23.2,775,42.5,0.64,AI-Adaptive,0.103,0,0.2673184068467346,Continue standard protocol
+638,53,Female,29.9,9.75,296.0,36.6,3073,32.0,0.72,Control,0.263,0,0.2188492672638762,Continue standard protocol
+639,34,Female,30.8,9.49,276.8,44.3,790,23.2,0.76,Control,0.237,0,0.41514758280771624,Remote consultation
+640,63,Male,34.7,7.24,159.6,30.6,3095,25.3,0.88,AI-Adaptive,0.055,0,0.2683131421745979,Continue standard protocol
+641,35,Male,34.5,9.65,261.2,26.4,1138,43.4,0.9,Control,0.167,0,0.540262592612862,Remote consultation
+642,31,Female,30.1,6.14,206.6,47.5,698,70.3,0.96,AI-Adaptive,0.032,0,0.05483404754757315,Continue standard protocol
+643,42,Male,31.1,11.41,316.5,32.3,1809,12.4,0.8,Control,0.414,0,0.2828113284442314,Continue standard protocol
+644,40,Female,27.5,10.06,288.1,32.9,3676,53.4,0.81,AI-Adaptive,0.249,0,0.2437196258458043,Continue standard protocol
+645,52,Male,29.1,7.83,251.6,32.3,1013,36.9,0.75,Control,0.099,0,0.8461952787515217,Immediate treatment optimization
+646,45,Male,34.8,8.96,247.8,33.8,4719,41.0,0.8,Control,0.158,0,0.18390071696305366,Continue standard protocol
+647,60,Female,28.5,6.82,206.8,26.7,2681,33.7,0.77,Control,0.054,0,0.3202205329479315,Continue standard protocol
+648,40,Male,31.6,8.57,248.2,31.7,1986,28.6,0.28,AI-Adaptive,0.316,0,0.3123610194416532,Continue standard protocol
+649,45,Female,23.3,8.28,244.3,37.7,1392,46.5,0.86,Control,0.106,1,0.8809218331664552,Immediate treatment optimization
+650,37,Male,24.3,7.5,217.6,26.6,1452,48.2,0.78,Control,0.074,0,0.5996486454521415,Remote consultation
+651,33,Male,28.2,7.94,211.4,26.1,2340,53.0,0.82,AI-Adaptive,0.085,0,0.8302041200717543,Immediate treatment optimization
+652,33,Female,27.6,7.82,210.0,27.1,3004,24.8,0.84,AI-Adaptive,0.078,0,0.19271584722254342,Continue standard protocol
+653,54,Female,24.5,7.14,182.8,20.1,1266,55.5,0.63,AI-Adaptive,0.078,0,0.5889476919423642,Remote consultation
+654,32,Female,36.6,7.47,176.4,23.3,1114,55.7,0.85,Control,0.061,0,0.31655992442501724,Continue standard protocol
+655,61,Female,27.7,6.77,214.5,23.7,1590,50.1,0.7,Control,0.058,0,0.8910806211939922,Immediate treatment optimization
+656,32,Female,25.2,9.53,267.0,30.6,4172,39.9,0.58,Control,0.286,0,0.6247278250091631,Remote consultation
+657,56,Male,27.6,7.38,230.5,36.5,871,48.7,0.72,AI-Adaptive,0.088,0,0.9877962057445645,Immediate treatment optimization
+658,58,Male,27.1,7.03,228.1,41.4,3588,43.1,0.76,AI-Adaptive,0.072,0,0.21082458003710558,Continue standard protocol
+659,61,Female,27.8,9.51,267.3,31.0,1854,56.6,0.62,Control,0.267,0,0.7340535928390841,Immediate treatment optimization
+660,48,Female,20.6,8.94,224.1,33.4,671,40.6,0.85,Control,0.142,0,0.42489154356288616,Remote consultation
+661,50,Female,32.2,9.47,261.2,32.4,1371,46.3,0.27,AI-Adaptive,0.439,0,0.3782620432623012,Continue standard protocol
+662,34,Male,32.4,9.6,255.4,13.6,2607,24.1,0.81,AI-Adaptive,0.17,0,0.6312728226154877,Remote consultation
+663,47,Male,32.9,10.82,263.4,21.3,5330,48.7,0.62,AI-Adaptive,0.4,1,0.4120055041264139,Remote consultation
+664,57,Female,28.3,8.31,222.6,35.8,815,36.0,0.87,Control,0.103,0,0.5478982655941393,Remote consultation
+665,51,Female,29.6,6.75,187.6,35.9,333,51.1,0.67,AI-Adaptive,0.07,0,0.42172467944770275,Remote consultation
+666,50,Female,23.5,8.83,234.4,36.6,824,54.5,0.4,AI-Adaptive,0.303,0,0.4765903240297127,Remote consultation
+667,35,Female,30.3,7.7,200.2,27.8,3563,37.7,0.47,AI-Adaptive,0.152,0,0.7479996697804806,Immediate treatment optimization
+668,30,Female,28.0,7.35,180.2,12.9,616,45.4,0.72,AI-Adaptive,0.067,0,0.7727274221486147,Immediate treatment optimization
+669,34,Male,25.2,8.62,245.3,21.9,4440,47.1,0.76,Control,0.128,0,0.044066320532800685,Continue standard protocol
+670,41,Male,30.5,9.54,304.5,24.3,3748,49.4,0.93,AI-Adaptive,0.147,1,0.9655648327506313,Immediate treatment optimization
+671,55,Male,30.6,7.5,235.6,35.0,2028,54.5,0.66,Control,0.104,0,0.3654947330660592,Continue standard protocol
+672,63,Male,27.2,10.03,293.9,28.3,1242,52.9,0.63,Control,0.314,0,0.7829100337470074,Immediate treatment optimization
+673,43,Female,28.8,7.31,218.2,43.1,1869,40.4,0.86,AI-Adaptive,0.069,0,0.07445471416532634,Continue standard protocol
+674,55,Male,22.9,8.21,227.2,41.5,2609,64.2,0.76,AI-Adaptive,0.129,0,0.36076991518718193,Continue standard protocol
+675,56,Female,32.0,8.96,214.8,42.9,2381,54.0,0.42,Control,0.325,0,0.626782514307423,Remote consultation
+676,38,Male,23.4,8.03,217.5,22.3,5135,61.9,0.37,AI-Adaptive,0.201,0,0.1896475614085089,Continue standard protocol
+677,55,Male,24.2,6.37,159.0,32.4,1547,49.2,0.51,Control,0.077,0,0.8389257283317817,Immediate treatment optimization
+678,51,Male,27.2,9.61,272.2,26.9,828,49.9,0.61,AI-Adaptive,0.272,0,0.6135427948073265,Remote consultation
+679,59,Male,31.5,7.75,241.7,32.7,745,43.6,0.67,Control,0.112,0,0.7125864314400016,Immediate treatment optimization
+680,46,Female,31.5,9.39,302.4,24.8,661,39.7,0.58,Control,0.257,1,0.2540684272742011,Continue standard protocol
+681,55,Male,27.0,6.98,196.7,39.0,2034,56.7,0.55,Control,0.104,0,0.26720348985374365,Continue standard protocol
+682,65,Female,30.1,7.19,168.0,22.3,1571,48.2,0.92,AI-Adaptive,0.045,0,0.19815945358993348,Continue standard protocol
+683,30,Male,20.2,9.53,268.1,15.0,1844,43.4,0.96,Control,0.126,0,0.27830262870161016,Continue standard protocol
+684,37,Male,24.1,8.91,251.3,46.5,1310,32.7,0.76,Control,0.188,0,0.4071876358769274,Remote consultation
+685,64,Male,24.2,7.97,236.7,33.5,929,63.7,0.54,AI-Adaptive,0.161,0,0.9715959297936152,Immediate treatment optimization
+686,44,Female,32.0,8.93,249.7,21.7,2614,46.4,0.91,AI-Adaptive,0.111,0,0.8709510036089043,Immediate treatment optimization
+687,51,Female,29.6,7.36,207.4,28.1,412,30.3,0.6,Control,0.101,0,0.852711585931601,Immediate treatment optimization
+688,43,Male,27.7,8.63,229.0,25.2,1118,46.0,0.73,Control,0.141,1,0.027384649160911767,Continue standard protocol
+689,55,Male,28.1,8.65,236.0,30.0,2898,42.6,0.9,AI-Adaptive,0.108,0,0.685790797394639,Remote consultation
+690,57,Female,33.3,8.05,235.7,36.4,1053,42.1,0.99,Control,0.072,0,0.9747012320478937,Immediate treatment optimization
+691,52,Male,26.3,7.5,169.8,33.8,2287,51.9,0.71,AI-Adaptive,0.093,0,0.06981066567625482,Continue standard protocol
+692,43,Male,21.7,8.58,233.9,32.0,1119,42.6,0.56,AI-Adaptive,0.201,0,0.4036564584044958,Remote consultation
+693,53,Female,31.3,8.43,249.8,30.3,1375,41.3,0.72,AI-Adaptive,0.138,0,0.309321876101359,Continue standard protocol
+694,31,Female,27.7,7.94,255.1,39.0,2553,61.3,0.78,Control,0.106,0,0.5779763899312125,Remote consultation
+695,55,Male,30.8,7.26,195.3,13.7,840,24.1,0.63,AI-Adaptive,0.077,0,0.8716505282161096,Immediate treatment optimization
+696,43,Female,26.8,8.51,262.0,24.5,2828,44.4,0.76,Control,0.125,0,0.05473610523950989,Continue standard protocol
+697,36,Female,23.6,7.94,256.1,22.5,1859,56.1,0.8,Control,0.085,0,0.3457312670122321,Continue standard protocol
+698,32,Male,28.6,7.26,195.6,37.2,3842,52.5,0.86,AI-Adaptive,0.063,0,0.5617272500778896,Remote consultation
+699,52,Female,27.0,8.55,228.2,23.9,2049,57.2,0.82,AI-Adaptive,0.113,0,0.3549202414149141,Continue standard protocol
+700,47,Female,27.7,10.43,288.4,20.7,952,69.3,0.68,AI-Adaptive,0.318,1,0.34533437784618115,Continue standard protocol
+701,64,Male,33.5,8.06,224.0,34.1,5099,65.4,0.31,AI-Adaptive,0.252,0,0.6748717518429223,Remote consultation
+702,44,Male,22.6,10.3,310.2,24.2,1001,31.1,0.67,Control,0.317,0,0.5732562868678236,Remote consultation
+703,54,Male,28.1,11.04,293.6,28.3,1578,25.7,0.84,Control,0.335,0,0.8350589721142694,Immediate treatment optimization
+704,57,Female,23.7,7.36,236.8,49.0,3211,48.9,0.54,AI-Adaptive,0.142,0,0.7197709823977743,Immediate treatment optimization
+705,39,Male,18.5,8.51,222.3,36.0,585,28.8,0.85,Control,0.118,0,0.4962646653717534,Remote consultation
+706,46,Female,26.8,11.02,283.3,29.2,4289,21.9,0.74,AI-Adaptive,0.385,0,0.2054651403410659,Continue standard protocol
+707,51,Female,27.1,8.35,244.3,29.2,906,48.8,0.74,Control,0.126,0,0.8342777645150073,Immediate treatment optimization
+708,55,Male,29.5,8.54,263.7,37.8,1376,51.8,0.81,Control,0.132,0,0.8944053360764845,Immediate treatment optimization
+709,54,Female,26.1,6.5,185.6,34.3,2150,65.5,0.45,Control,0.095,0,0.7621758712077327,Immediate treatment optimization
+710,46,Male,21.0,7.86,228.8,30.4,1763,54.2,0.71,AI-Adaptive,0.107,0,0.7239986097771218,Immediate treatment optimization
+711,42,Female,23.7,9.17,295.8,32.0,2903,68.0,0.64,Control,0.226,0,0.4872917542675359,Remote consultation
+712,49,Female,32.3,11.42,344.7,20.3,692,49.3,0.39,Control,0.603,1,0.7719754866834758,Immediate treatment optimization
+713,54,Male,23.7,8.26,231.9,16.4,2797,31.4,0.25,Control,0.257,0,0.8390570913945655,Immediate treatment optimization
+714,33,Male,33.3,6.5,173.4,27.3,2935,54.9,0.83,Control,0.04,0,0.17927633841259238,Continue standard protocol
+715,39,Male,31.2,6.81,212.6,24.4,3353,61.0,0.7,AI-Adaptive,0.06,0,0.8840360634882529,Immediate treatment optimization
+716,32,Male,25.7,8.46,253.5,35.0,697,49.7,0.77,Control,0.133,0,0.6689844633038912,Remote consultation
+717,47,Male,24.1,9.91,285.9,32.5,749,62.4,0.75,AI-Adaptive,0.257,0,0.63232334392918,Remote consultation
+718,65,Male,31.2,9.26,252.7,24.1,1472,43.5,0.92,AI-Adaptive,0.131,0,0.0014396845238945355,Continue standard protocol
+719,51,Female,26.0,9.05,251.9,31.6,799,51.6,0.48,Control,0.279,0,0.14141073354201883,Continue standard protocol
+720,63,Male,20.8,10.07,279.0,27.5,613,42.9,0.36,Control,0.457,1,0.5160106414838742,Remote consultation
+721,37,Male,29.2,7.64,207.7,45.9,1435,73.5,0.89,AI-Adaptive,0.079,0,0.4490435468934171,Remote consultation
+722,48,Female,28.7,8.52,226.5,32.9,2081,55.1,0.57,AI-Adaptive,0.194,0,0.6596176096229941,Remote consultation
+723,35,Male,31.6,7.88,225.9,17.3,9695,31.6,0.35,AI-Adaptive,0.186,0,0.20583204203854222,Continue standard protocol
+724,55,Female,28.4,8.17,215.8,44.1,2513,67.2,0.69,Control,0.149,0,0.9643127234962748,Immediate treatment optimization
+725,63,Female,24.8,7.29,207.7,24.3,5174,36.2,0.4,Control,0.138,0,0.07118411793822377,Continue standard protocol
+726,35,Female,32.1,8.09,184.5,21.1,1761,45.2,0.91,AI-Adaptive,0.072,0,0.03180130880785903,Continue standard protocol
+727,62,Male,32.5,8.47,225.2,46.9,2529,50.6,0.73,AI-Adaptive,0.163,0,0.3352271453952279,Continue standard protocol
+728,51,Male,27.9,8.05,247.4,33.0,1656,51.6,0.87,AI-Adaptive,0.088,0,0.18702136125368996,Continue standard protocol
+729,50,Male,27.2,8.31,214.7,35.1,9044,50.8,0.84,Control,0.108,1,0.0620308705310203,Continue standard protocol
+730,35,Female,21.7,8.99,263.6,36.4,1198,31.4,0.68,Control,0.203,0,0.9520885612713738,Immediate treatment optimization
+731,35,Male,24.6,9.99,263.4,28.9,1300,50.8,0.62,AI-Adaptive,0.316,0,0.43196811257861445,Remote consultation
+732,33,Male,30.0,10.07,297.5,26.6,2916,58.2,0.84,Control,0.224,0,0.20314961953575594,Continue standard protocol
+733,59,Female,24.8,9.41,257.5,27.1,2048,57.9,0.92,AI-Adaptive,0.145,0,0.7136492855291015,Immediate treatment optimization
+734,40,Male,21.2,6.99,189.0,41.9,1402,29.4,0.76,Control,0.071,0,0.17372219996305938,Continue standard protocol
+735,59,Male,41.0,8.07,227.0,31.4,3217,37.1,0.78,AI-Adaptive,0.104,0,0.6745578219986117,Remote consultation
+736,60,Male,21.1,8.17,201.9,39.8,1764,32.5,0.73,Control,0.132,0,0.49893372447379913,Remote consultation
+737,53,Female,36.0,7.71,235.3,29.3,1757,49.1,0.84,Control,0.075,0,0.760722679453609,Immediate treatment optimization
+738,38,Male,25.8,8.91,275.5,24.7,2076,26.4,0.45,Control,0.261,0,0.12546963793093957,Continue standard protocol
+739,32,Female,26.7,6.59,177.3,17.3,639,31.5,0.81,Control,0.039,0,0.7787101112453138,Immediate treatment optimization
+740,60,Female,24.3,10.53,305.3,36.5,695,37.0,0.77,Control,0.329,1,0.5474314727537718,Remote consultation
+741,65,Male,30.1,9.93,293.6,44.7,3471,23.4,0.26,Control,0.544,1,0.5676030609840674,Remote consultation
+742,53,Female,21.2,9.07,252.1,23.2,1205,44.7,0.87,Control,0.13,0,0.5371005607480484,Remote consultation
+743,60,Male,19.6,8.43,213.9,33.6,1669,19.7,0.83,AI-Adaptive,0.115,0,0.8397222823597028,Immediate treatment optimization
+744,35,Male,33.4,9.97,311.0,20.5,4757,50.8,0.82,AI-Adaptive,0.21,0,0.17621328262929392,Continue standard protocol
+745,31,Female,23.8,9.33,253.4,25.9,1715,40.2,0.4,AI-Adaptive,0.335,1,0.4835083102061245,Remote consultation
+746,49,Female,30.0,9.83,263.1,32.6,1594,37.5,0.89,Control,0.196,1,0.20130012241024708,Continue standard protocol
+747,57,Female,22.7,8.43,268.8,16.8,3095,39.5,0.98,Control,0.071,0,0.6676983947756624,Remote consultation
+748,40,Female,29.8,10.65,310.4,31.3,1263,44.3,0.72,Control,0.354,0,0.8964928059214533,Immediate treatment optimization
+749,33,Male,33.7,9.9,282.3,24.2,3721,52.1,0.31,AI-Adaptive,0.451,1,0.272330267614842,Continue standard protocol
+750,44,Male,24.9,9.11,235.7,34.8,3057,60.8,0.96,AI-Adaptive,0.126,0,0.047323898281440346,Continue standard protocol
+751,35,Male,19.3,10.01,296.3,29.8,5422,57.2,0.64,AI-Adaptive,0.311,0,0.5093670656361883,Remote consultation
+752,59,Male,33.8,8.0,281.9,38.4,1195,71.8,0.65,AI-Adaptive,0.14,0,0.1959211251060291,Continue standard protocol
+753,31,Male,30.7,7.1,216.4,27.3,4106,53.1,0.73,AI-Adaptive,0.068,0,0.4488999663218245,Remote consultation
+754,44,Male,25.1,8.89,258.8,19.5,2521,46.7,0.55,AI-Adaptive,0.208,1,0.40209355853915374,Remote consultation
+755,40,Male,26.1,8.43,250.5,18.4,816,39.5,0.94,Control,0.079,0,0.389657243088797,Continue standard protocol
+756,37,Male,22.6,8.26,224.7,14.5,381,39.9,0.55,AI-Adaptive,0.149,1,0.2650007640605163,Continue standard protocol
+757,55,Female,32.7,9.96,272.1,35.7,1120,51.5,0.9,Control,0.21,0,0.7368886718137198,Immediate treatment optimization
+758,34,Female,24.9,8.7,236.6,50.4,2155,33.0,0.76,AI-Adaptive,0.178,0,0.9142927207574054,Immediate treatment optimization
+759,35,Male,21.3,8.82,235.5,33.4,2351,47.7,0.88,AI-Adaptive,0.126,0,0.6105569718742555,Remote consultation
+760,55,Female,27.9,8.11,220.0,43.0,1745,44.8,0.66,Control,0.151,0,0.0757420620715904,Continue standard protocol
+761,33,Female,23.6,9.56,260.5,39.5,1754,36.3,0.84,Control,0.203,0,0.3744063701800624,Continue standard protocol
+762,48,Male,22.9,9.34,256.6,26.2,1676,32.4,0.89,Control,0.147,0,0.08122438972195456,Continue standard protocol
+763,49,Female,25.3,9.55,261.9,40.6,3357,75.3,0.93,AI-Adaptive,0.174,0,0.6428227361130942,Remote consultation
+764,62,Female,27.3,7.9,226.1,25.9,764,28.2,0.6,AI-Adaptive,0.129,0,0.5534150507384239,Remote consultation
+765,49,Female,21.5,10.06,283.3,27.2,2124,44.2,0.61,Control,0.325,0,0.163404125381317,Continue standard protocol
+766,41,Male,32.5,10.71,303.2,29.6,1104,59.7,0.83,AI-Adaptive,0.304,0,0.9663146740739029,Immediate treatment optimization
+767,30,Female,29.7,9.51,296.7,29.9,1050,51.3,0.9,Control,0.162,0,0.13475732215649927,Continue standard protocol
+768,55,Male,25.5,7.53,212.4,34.8,3662,39.3,0.94,AI-Adaptive,0.06,0,0.082542682520519,Continue standard protocol
+769,43,Female,23.4,7.54,255.3,25.0,1002,30.7,0.77,AI-Adaptive,0.076,0,0.7093851931519597,Immediate treatment optimization
+770,40,Female,26.6,8.05,232.5,37.0,1663,46.6,0.82,AI-Adaptive,0.101,0,0.09718908984848096,Continue standard protocol
+771,65,Female,30.6,7.82,210.0,36.4,5855,13.3,0.94,Control,0.07,0,0.29333149145533277,Continue standard protocol
+772,42,Female,30.0,8.41,262.5,33.2,2989,47.0,0.89,AI-Adaptive,0.101,0,0.31099291234368254,Continue standard protocol
+773,32,Female,31.2,9.26,257.7,45.9,1376,45.4,0.95,Control,0.155,1,0.8960449251075656,Immediate treatment optimization
+774,62,Male,25.1,8.85,199.9,39.5,1446,57.8,0.73,Control,0.18,0,0.030766882643204374,Continue standard protocol
+775,35,Male,18.5,8.74,244.6,38.7,866,31.3,0.74,Control,0.167,0,0.6431281973879429,Remote consultation
+776,39,Female,32.0,8.21,224.9,30.3,3946,41.1,0.6,Control,0.156,0,0.736196465533775,Immediate treatment optimization
+777,34,Male,26.3,8.41,267.6,33.4,3317,50.2,0.92,Control,0.096,0,0.8063628942326201,Immediate treatment optimization
+778,52,Male,29.7,9.46,246.9,34.4,2730,47.5,0.77,Control,0.209,0,0.0034323268863082346,Continue standard protocol
+779,39,Male,33.7,6.09,163.9,28.6,2916,28.9,0.92,Control,0.027,0,0.7873097668563128,Immediate treatment optimization
+780,31,Male,36.7,8.49,263.1,27.5,1136,37.2,0.6,Control,0.172,0,0.0991105330685973,Continue standard protocol
+781,42,Female,24.4,8.85,255.7,11.1,714,61.8,0.55,Control,0.189,0,0.7641246775120861,Immediate treatment optimization
+782,31,Female,27.5,9.44,260.9,36.2,2531,48.1,0.78,AI-Adaptive,0.208,0,0.38062401093500886,Continue standard protocol
+783,49,Female,32.5,7.29,189.0,37.4,3081,25.0,0.95,Control,0.053,0,0.28358240817346025,Continue standard protocol
+784,30,Female,23.6,7.22,209.2,20.1,4742,55.6,0.75,AI-Adaptive,0.064,0,0.516878435344923,Remote consultation
+785,38,Male,24.7,9.2,257.0,35.2,1603,25.8,0.79,Control,0.182,0,0.7039480578081496,Immediate treatment optimization
+786,46,Male,24.6,6.21,158.5,23.7,1468,41.3,0.79,AI-Adaptive,0.036,0,0.3300089297612505,Continue standard protocol
+787,38,Female,26.9,10.1,268.5,27.7,1566,51.8,0.84,AI-Adaptive,0.23,0,0.48194543568892223,Remote consultation
+788,40,Male,26.1,8.77,229.3,40.3,2704,59.6,0.62,AI-Adaptive,0.213,0,0.38104514993901706,Continue standard protocol
+789,44,Female,24.6,10.37,270.5,22.7,1527,16.9,0.8,AI-Adaptive,0.262,0,0.1749794313423837,Continue standard protocol
+790,53,Female,23.1,7.2,220.3,21.7,1752,53.5,0.75,AI-Adaptive,0.064,0,0.4761984551540813,Remote consultation
+791,64,Male,30.2,7.98,239.4,44.5,2977,55.3,0.84,AI-Adaptive,0.102,1,0.9813580028580878,Immediate treatment optimization
+792,59,Female,32.4,5.61,175.8,27.6,1242,38.3,0.66,Control,0.036,0,0.7718519112848273,Immediate treatment optimization
+793,60,Female,32.9,7.55,211.5,39.4,4166,46.1,0.33,Control,0.206,0,0.870579009464845,Immediate treatment optimization
+794,34,Female,25.1,8.28,227.0,17.0,2643,8.4,0.85,Control,0.086,0,0.08733080024109285,Continue standard protocol
+795,43,Male,30.4,6.14,167.4,16.4,593,12.0,0.54,Control,0.054,0,0.1725970384822194,Continue standard protocol
+796,40,Male,27.9,8.03,245.3,22.8,1327,58.3,0.81,Control,0.088,0,0.6760253798899573,Remote consultation
+797,38,Female,24.7,6.12,135.0,24.1,537,38.5,0.73,Control,0.039,0,0.8840117913717025,Immediate treatment optimization
+798,63,Male,29.9,8.19,219.0,18.4,1607,40.8,0.81,AI-Adaptive,0.091,0,0.232181577301253,Continue standard protocol
+799,41,Male,24.5,9.88,258.9,33.4,1341,47.8,0.41,Control,0.421,1,0.4096163848878387,Remote consultation
+800,64,Female,25.5,8.46,264.1,34.0,2984,40.6,0.78,AI-Adaptive,0.13,0,0.8439053466488031,Immediate treatment optimization
+801,64,Male,21.5,10.49,284.2,23.7,1066,39.5,0.34,AI-Adaptive,0.514,0,0.7843076632723849,Immediate treatment optimization
+802,30,Female,25.1,9.44,231.6,23.3,2282,49.7,0.77,AI-Adaptive,0.187,0,0.9139982909064573,Immediate treatment optimization
+803,51,Female,28.0,10.12,287.8,25.5,2544,27.1,0.67,AI-Adaptive,0.299,1,0.930183749816505,Immediate treatment optimization
+804,58,Female,33.3,7.58,204.8,20.0,2110,58.9,0.77,AI-Adaptive,0.073,0,0.7224951356936096,Immediate treatment optimization
+805,37,Male,25.6,7.55,200.3,6.1,3583,42.2,0.61,AI-Adaptive,0.086,0,0.620876927188062,Remote consultation
+806,40,Female,22.8,8.91,236.3,29.3,6254,32.9,0.72,Control,0.171,0,0.0457837822367263,Continue standard protocol
+807,43,Male,33.0,6.61,171.1,25.2,1934,31.3,0.58,AI-Adaptive,0.07,0,0.002257409460092563,Continue standard protocol
+808,59,Male,25.0,9.07,268.1,28.0,2306,45.5,0.82,AI-Adaptive,0.151,0,0.2984451432456632,Continue standard protocol
+809,64,Female,20.0,8.11,231.6,21.8,1066,41.3,0.83,Control,0.087,0,0.8304653528218461,Immediate treatment optimization
+810,50,Male,27.5,10.1,278.8,37.3,981,26.4,0.38,Control,0.479,0,0.9280059247696518,Immediate treatment optimization
+811,34,Male,25.7,9.32,239.0,49.4,3362,37.8,0.51,Control,0.342,1,0.3862746821715102,Continue standard protocol
+812,48,Female,36.2,9.82,271.6,24.0,3105,35.3,0.91,Control,0.173,0,0.16589291976875253,Continue standard protocol
+813,43,Male,28.9,7.59,217.7,40.8,975,60.1,0.61,Control,0.127,0,0.0022424603436654866,Continue standard protocol
+814,55,Male,26.4,9.76,279.3,33.8,825,46.6,0.95,Control,0.173,1,0.033526994719097813,Continue standard protocol
+815,33,Female,23.3,10.23,289.7,31.3,1225,63.8,0.52,Control,0.403,1,0.9110594266864865,Immediate treatment optimization
+816,54,Female,28.3,8.45,218.1,26.9,1661,36.5,0.83,AI-Adaptive,0.109,0,0.7320291624002592,Immediate treatment optimization
+817,54,Female,32.8,7.61,165.0,27.9,1414,41.5,0.88,Control,0.065,1,0.07920122252729545,Continue standard protocol
+818,47,Male,28.2,7.63,249.6,39.4,1991,49.6,0.62,AI-Adaptive,0.125,1,0.5183367484158043,Remote consultation
+819,37,Male,23.6,9.99,253.5,21.2,3135,52.2,0.84,Control,0.206,0,0.4366345577625641,Remote consultation
+820,43,Male,29.2,11.72,288.9,28.8,2386,53.7,0.48,Control,0.619,1,0.3371970238082139,Continue standard protocol
+821,61,Male,26.8,7.32,207.6,39.4,2494,34.3,0.84,AI-Adaptive,0.069,0,0.32187276836297496,Continue standard protocol
+822,62,Female,28.8,7.23,168.3,36.5,415,34.7,0.66,Control,0.092,0,0.5048917625706189,Remote consultation
+823,52,Male,25.6,9.61,253.0,21.3,687,40.7,0.92,Control,0.15,0,0.5286307715432723,Remote consultation
+824,44,Male,25.5,7.6,223.8,28.3,1121,62.8,0.69,Control,0.095,0,0.14399602058362015,Continue standard protocol
+825,62,Female,25.3,9.72,307.6,37.2,1238,33.0,0.87,Control,0.202,0,0.9095907697090916,Immediate treatment optimization
+826,54,Female,30.8,9.06,261.4,35.8,2993,38.7,0.57,Control,0.251,0,0.07027164430476873,Continue standard protocol
+827,46,Female,25.5,8.47,228.4,37.6,1067,53.8,0.86,Control,0.116,1,0.29314096900115205,Continue standard protocol
+828,62,Male,25.2,9.03,251.8,33.4,2698,53.1,0.67,Control,0.205,0,0.508949596008255,Remote consultation
+829,31,Male,23.2,8.96,214.7,34.0,1129,51.7,0.45,AI-Adaptive,0.288,1,0.013056137515991328,Continue standard protocol
+830,43,Male,28.8,8.28,222.8,32.4,880,46.0,0.65,Control,0.15,1,0.19943569825284113,Continue standard protocol
+831,35,Male,28.2,6.39,169.9,41.3,904,32.2,0.86,AI-Adaptive,0.042,0,0.6724023733487747,Remote consultation
+832,35,Female,25.2,8.71,246.9,26.8,7009,36.7,0.7,AI-Adaptive,0.157,0,0.12623419941076197,Continue standard protocol
+833,32,Female,24.2,10.39,329.8,32.2,1114,58.5,0.91,AI-Adaptive,0.24,0,0.39085344033521496,Continue standard protocol
+834,36,Female,34.5,6.57,145.2,20.0,2737,54.3,0.72,AI-Adaptive,0.048,1,0.1265538128495889,Continue standard protocol
+835,37,Female,19.5,7.34,197.4,19.5,710,29.0,0.85,AI-Adaptive,0.055,0,0.17545587542118912,Continue standard protocol
+836,44,Male,29.0,9.01,215.6,32.2,4236,55.4,0.66,AI-Adaptive,0.204,1,0.8440104459781813,Immediate treatment optimization
+837,58,Female,32.2,8.55,229.3,24.0,2229,60.7,0.62,AI-Adaptive,0.165,0,0.8732242958696868,Immediate treatment optimization
+838,62,Male,18.5,8.99,234.4,29.5,2131,45.6,0.93,Control,0.119,0,0.5417238573077517,Remote consultation
+839,59,Female,30.2,7.66,184.6,41.9,2318,50.1,0.65,Control,0.123,0,0.7384477692248674,Immediate treatment optimization
+840,56,Female,26.1,9.89,295.2,43.6,2476,57.1,0.77,Control,0.273,0,0.06488772532579978,Continue standard protocol
+841,65,Male,28.0,8.56,244.8,47.9,2938,36.7,0.57,AI-Adaptive,0.228,0,0.590877433907247,Remote consultation
+842,58,Male,25.7,9.34,277.4,43.9,1262,73.0,0.94,Control,0.161,0,0.9119256448953602,Immediate treatment optimization
+843,62,Female,31.3,8.88,238.0,49.2,1219,59.7,0.87,AI-Adaptive,0.156,0,0.7736599510937469,Immediate treatment optimization
+844,56,Male,28.5,8.71,242.5,33.6,1862,51.3,0.48,AI-Adaptive,0.247,0,0.9969822134036108,Immediate treatment optimization
+845,62,Male,27.5,9.25,290.9,23.8,2726,44.6,0.65,Control,0.213,0,0.9782078843212252,Immediate treatment optimization
+846,33,Male,23.4,8.72,244.1,22.1,1737,50.9,0.6,AI-Adaptive,0.181,0,0.2222056875801317,Continue standard protocol
+847,51,Female,34.5,7.07,214.1,40.7,2877,26.3,0.8,AI-Adaptive,0.067,0,0.24110545189136934,Continue standard protocol
+848,31,Female,27.0,9.8,262.1,30.9,2619,70.0,0.84,Control,0.208,1,0.77111658650945,Immediate treatment optimization
+849,39,Female,36.2,9.48,279.8,31.8,1587,58.5,0.83,AI-Adaptive,0.185,0,0.6856126773927693,Remote consultation
+850,34,Male,34.7,5.97,156.2,24.0,634,62.6,0.84,Control,0.029,0,0.456716965715001,Remote consultation
+851,39,Female,19.9,7.71,178.0,25.4,1337,45.4,0.73,AI-Adaptive,0.09,0,0.5620000247921111,Remote consultation
+852,62,Male,24.4,9.75,272.8,33.8,5144,40.7,0.78,AI-Adaptive,0.232,1,0.7570870274318068,Immediate treatment optimization
+853,42,Female,22.9,6.31,167.3,20.1,2217,36.9,0.47,Control,0.071,0,0.5636522702616206,Remote consultation
+854,60,Female,26.8,9.63,237.1,32.0,1232,54.8,0.94,Control,0.163,0,0.026302640105881014,Continue standard protocol
+855,65,Male,27.7,8.33,237.1,42.1,2101,38.8,0.79,Control,0.13,0,0.3888958316493809,Continue standard protocol
+856,53,Male,27.9,10.11,265.2,13.5,2713,42.8,0.79,AI-Adaptive,0.22,0,0.012960503530182965,Continue standard protocol
+857,44,Male,31.2,8.5,299.9,18.9,1232,51.6,0.52,AI-Adaptive,0.184,1,0.45116501077509263,Remote consultation
+858,58,Male,33.0,7.63,184.4,34.3,3794,37.1,0.85,Control,0.075,0,0.15366730914613236,Continue standard protocol
+859,37,Male,30.9,8.87,224.1,40.6,2434,57.5,0.91,Control,0.132,0,0.5098826696023167,Remote consultation
+860,34,Female,24.8,8.46,254.3,26.4,935,44.8,0.89,Control,0.096,0,0.5486826026934455,Remote consultation
+861,58,Female,23.9,7.53,208.2,13.4,3022,26.9,0.53,AI-Adaptive,0.108,0,0.07292198960885843,Continue standard protocol
+862,33,Male,27.0,11.16,329.5,43.3,1414,37.0,0.92,AI-Adaptive,0.351,0,0.6686767625772222,Remote consultation
+863,41,Male,28.7,7.33,212.8,23.0,1624,60.7,0.51,Control,0.113,0,0.7596635606841723,Immediate treatment optimization
+864,31,Male,26.3,5.81,151.0,25.4,983,33.8,0.53,Control,0.051,0,0.603873149115408,Remote consultation
+865,56,Female,21.6,10.4,263.6,33.1,2641,55.7,0.61,Control,0.383,1,0.5587369144956523,Remote consultation
+866,60,Male,29.7,7.8,239.8,24.7,1654,46.5,0.62,AI-Adaptive,0.116,0,0.26400755579769264,Continue standard protocol
+867,65,Female,25.4,8.14,202.2,22.3,2709,42.9,0.89,Control,0.078,0,0.17602070154326754,Continue standard protocol
+868,65,Female,25.3,8.07,237.1,23.1,1299,75.2,0.53,Control,0.154,0,0.5360513619554165,Remote consultation
+869,55,Female,26.8,7.82,237.3,44.9,1213,29.6,0.45,Control,0.198,0,0.4301037861327158,Remote consultation
+870,56,Female,26.0,7.58,209.7,38.7,1155,36.1,0.69,AI-Adaptive,0.106,0,0.8279980093187423,Immediate treatment optimization
+871,34,Male,25.5,7.3,198.3,33.8,2293,44.7,0.85,AI-Adaptive,0.063,0,0.2976611347753647,Continue standard protocol
+872,49,Female,21.9,8.58,220.6,12.2,1202,74.0,0.6,Control,0.154,0,0.11176897030441335,Continue standard protocol
+873,40,Male,26.6,8.02,233.8,34.5,1601,44.7,0.6,AI-Adaptive,0.149,0,0.9393500020510023,Immediate treatment optimization
+874,39,Male,29.8,9.38,201.7,33.5,1325,48.3,0.78,Control,0.197,0,0.3037129615495432,Continue standard protocol
+875,35,Female,28.1,9.08,268.6,20.4,2354,41.0,0.92,Control,0.116,1,0.21008948803152927,Continue standard protocol
+876,37,Female,30.8,7.39,209.3,31.5,638,49.3,0.79,Control,0.073,0,0.6900440527608712,Remote consultation
+877,52,Female,24.1,8.63,237.2,38.4,2097,41.7,0.69,Control,0.174,0,0.7410746102614562,Immediate treatment optimization
+878,55,Male,21.9,8.0,228.8,34.4,5109,53.3,0.78,AI-Adaptive,0.104,0,0.22159827325844894,Continue standard protocol
+879,41,Male,26.0,7.31,177.2,23.3,3796,54.3,0.69,Control,0.078,0,0.421929202236479,Remote consultation
+880,55,Female,24.5,9.33,213.0,29.6,1249,42.2,0.64,Control,0.237,0,0.1743966620224071,Continue standard protocol
+881,42,Male,25.0,8.35,243.2,35.9,2433,31.5,0.62,AI-Adaptive,0.169,0,0.8084152784218294,Immediate treatment optimization
+882,47,Female,27.8,8.01,250.6,30.7,2165,46.1,0.69,Control,0.12,0,0.10075050099690452,Continue standard protocol
+883,54,Female,25.0,7.47,174.4,38.8,4366,61.8,0.66,AI-Adaptive,0.106,0,0.9586304673689706,Immediate treatment optimization
+884,62,Female,22.0,7.27,182.5,32.1,401,35.1,0.8,Control,0.067,0,0.23758773446623693,Continue standard protocol
+885,41,Male,24.8,10.89,320.0,37.7,3525,49.0,0.67,Control,0.43,1,0.7799915478702937,Immediate treatment optimization
+886,65,Male,28.4,8.9,256.4,36.9,1540,30.5,0.59,Control,0.23,1,0.6940327041460255,Remote consultation
+887,33,Male,29.7,7.19,260.6,21.9,1158,32.5,0.74,Control,0.065,0,0.34900303915258524,Continue standard protocol
+888,34,Female,29.6,8.85,269.3,31.0,1138,60.6,0.69,AI-Adaptive,0.178,1,0.7878050869911584,Immediate treatment optimization
+889,37,Male,28.7,9.77,290.3,28.4,829,53.3,0.78,Control,0.222,1,0.9714065239157007,Immediate treatment optimization
+890,57,Female,26.3,8.7,228.3,38.2,1251,49.2,0.8,AI-Adaptive,0.146,0,0.04609496598662888,Continue standard protocol
+891,60,Male,28.6,10.15,294.7,34.8,946,17.1,0.6,AI-Adaptive,0.361,0,0.003690551844921397,Continue standard protocol
+892,38,Female,26.8,6.65,216.1,28.1,2015,38.4,0.6,AI-Adaptive,0.071,0,0.9015901468595277,Immediate treatment optimization
+893,58,Male,27.5,6.11,167.8,18.3,2576,52.3,0.81,Control,0.031,0,0.5238523382041622,Remote consultation
+894,43,Male,23.2,8.81,244.3,17.4,1550,27.6,0.47,AI-Adaptive,0.226,0,0.6155672254258976,Remote consultation
+895,51,Male,27.2,8.83,250.1,32.7,4446,40.8,0.64,AI-Adaptive,0.196,0,0.35668764936211717,Continue standard protocol
+896,40,Female,28.5,5.5,140.7,22.3,1301,54.2,0.6,AI-Adaptive,0.036,0,0.7334910444324145,Immediate treatment optimization
+897,52,Female,28.4,7.75,222.4,35.0,1502,26.9,0.66,Control,0.117,0,0.8729884223411641,Immediate treatment optimization
+898,30,Female,21.8,7.29,209.0,16.3,1361,24.8,0.68,Control,0.073,0,0.25756603101295483,Continue standard protocol
+899,50,Male,27.4,6.83,220.8,42.4,2589,27.1,0.74,AI-Adaptive,0.068,0,0.16114263830273845,Continue standard protocol
+900,55,Male,21.2,7.29,200.3,34.6,2751,49.0,0.78,AI-Adaptive,0.073,0,0.553139898214299,Remote consultation
+901,65,Female,27.7,9.21,271.4,31.5,2434,38.3,0.66,Control,0.221,0,0.8267661451276699,Immediate treatment optimization
+902,52,Male,24.2,7.28,200.6,42.7,1678,55.5,0.69,AI-Adaptive,0.095,0,0.8915595266041235,Immediate treatment optimization
+903,30,Male,33.8,7.32,217.8,37.2,809,46.5,0.75,AI-Adaptive,0.081,0,0.5890089908960229,Remote consultation
+904,44,Female,27.5,6.56,178.7,25.0,1493,67.6,0.91,AI-Adaptive,0.034,0,0.5332308302232958,Remote consultation
+905,50,Female,30.2,10.02,292.0,31.7,4389,30.2,0.44,Control,0.419,1,0.8922180828745468,Immediate treatment optimization
+906,38,Female,35.4,9.02,267.1,14.9,3321,49.0,0.63,AI-Adaptive,0.183,0,0.7356102094922742,Immediate treatment optimization
+907,38,Female,23.7,5.51,132.9,36.4,2157,35.5,0.7,AI-Adaptive,0.035,0,0.39668342948118795,Continue standard protocol
+908,39,Male,28.7,7.32,227.0,27.4,1436,52.2,0.9,Control,0.053,0,0.5792534103700175,Remote consultation
+909,55,Male,22.3,9.13,252.3,14.5,1793,46.4,0.3,AI-Adaptive,0.329,0,0.21662273762298734,Continue standard protocol
+910,64,Female,28.4,10.04,271.7,21.2,1439,33.1,0.74,Control,0.249,1,0.19070164623933572,Continue standard protocol
+911,54,Female,34.1,9.51,252.1,37.3,3699,43.1,0.58,Control,0.3,0,0.04534584330636837,Continue standard protocol
+912,55,Male,24.5,8.07,231.9,42.8,1093,45.9,0.58,Control,0.172,0,0.8418585918615462,Immediate treatment optimization
+913,40,Male,23.5,6.18,172.9,28.9,3147,37.8,0.44,AI-Adaptive,0.078,0,0.8423799035941933,Immediate treatment optimization
+914,31,Male,26.6,9.54,274.5,22.9,1316,53.7,0.82,AI-Adaptive,0.178,1,0.5389549122890968,Remote consultation
+915,36,Female,35.2,8.14,235.7,18.6,3994,32.6,0.73,AI-Adaptive,0.104,0,0.9558099009022514,Immediate treatment optimization
+916,47,Female,30.1,8.58,252.4,41.6,2336,70.1,0.51,AI-Adaptive,0.24,0,0.6036583831710293,Remote consultation
+917,56,Female,23.4,8.29,287.6,34.6,1153,56.4,0.97,AI-Adaptive,0.082,1,0.6110955189026555,Remote consultation
+918,63,Male,32.8,6.87,193.2,26.5,1502,49.2,0.8,AI-Adaptive,0.051,0,0.5859269185693806,Remote consultation
+919,56,Female,20.4,8.94,235.6,25.4,2771,79.1,0.82,AI-Adaptive,0.138,0,0.9981742922259423,Immediate treatment optimization
+920,46,Female,35.5,8.77,205.2,34.7,1340,41.3,0.76,AI-Adaptive,0.157,0,0.4246294708207462,Remote consultation
+921,53,Male,30.4,7.99,199.8,34.4,1832,52.3,0.67,Control,0.128,0,0.542850731072904,Remote consultation
+922,54,Male,34.1,9.07,278.7,23.6,1329,47.7,0.9,AI-Adaptive,0.124,0,0.08835242398771881,Continue standard protocol
+923,36,Male,20.4,6.85,206.2,20.2,5195,54.6,0.63,AI-Adaptive,0.067,0,0.8852751757046526,Immediate treatment optimization
+924,35,Male,27.7,8.18,202.0,20.5,5760,63.0,0.87,Control,0.082,0,0.8021115814091967,Immediate treatment optimization
+925,53,Female,26.5,8.53,288.1,27.3,4350,51.6,0.89,AI-Adaptive,0.101,0,0.2995228073036318,Continue standard protocol
+926,62,Male,23.0,6.42,186.3,23.5,1678,57.5,0.75,Control,0.044,0,0.3699472892424477,Continue standard protocol
+927,58,Female,21.8,8.43,245.2,43.1,1420,38.4,0.84,AI-Adaptive,0.125,0,0.30620803032239907,Continue standard protocol
+928,51,Male,29.0,9.38,307.5,27.4,1133,42.5,0.77,AI-Adaptive,0.189,0,0.5908746042336932,Remote consultation
+929,55,Male,29.4,8.14,262.7,20.5,4543,64.7,0.83,Control,0.087,0,0.27956312936392147,Continue standard protocol
+930,57,Male,32.2,8.46,252.5,20.7,3160,52.2,0.85,Control,0.098,0,0.2206510383402942,Continue standard protocol
+931,50,Male,25.0,9.17,273.3,29.2,3253,48.0,0.69,AI-Adaptive,0.202,0,0.2968650214840133,Continue standard protocol
+932,36,Female,26.4,8.03,243.3,15.5,1556,36.0,0.8,Control,0.083,0,0.828005239080192,Immediate treatment optimization
+933,46,Female,21.5,8.14,223.1,29.2,630,56.6,0.85,AI-Adaptive,0.092,0,0.056701243241739196,Continue standard protocol
+934,49,Female,33.2,7.09,204.3,18.6,723,35.6,0.8,AI-Adaptive,0.053,0,0.5405304472723588,Remote consultation
+935,49,Female,27.3,8.48,248.9,39.5,1872,32.1,0.86,AI-Adaptive,0.119,0,0.24627905268208528,Continue standard protocol
+936,51,Male,29.9,8.1,224.3,30.7,1321,46.4,0.51,AI-Adaptive,0.175,0,0.6924766170180126,Remote consultation
+937,57,Male,30.0,9.1,235.5,46.9,1233,16.2,0.69,AI-Adaptive,0.231,1,0.726178398826777,Immediate treatment optimization
+938,36,Male,32.8,9.18,251.7,28.5,2224,52.3,0.81,AI-Adaptive,0.162,0,0.18324455735481904,Continue standard protocol
+939,30,Female,23.7,9.45,244.8,5.1,3322,49.5,0.93,Control,0.115,0,0.46610716484257586,Remote consultation
+940,61,Male,29.8,7.89,222.2,41.3,1187,40.8,0.59,Control,0.153,0,0.9915146658049191,Immediate treatment optimization
+941,42,Male,26.9,5.89,129.3,31.8,826,41.9,0.87,Control,0.028,0,0.9385796203807969,Immediate treatment optimization
+942,59,Female,35.4,9.39,269.7,35.9,1204,43.6,0.95,AI-Adaptive,0.149,0,0.03424858910907358,Continue standard protocol
+943,52,Male,23.7,9.02,219.9,21.6,966,35.5,0.84,Control,0.133,0,0.7055186099791769,Immediate treatment optimization
+944,48,Male,31.7,7.74,208.7,29.1,2580,47.2,0.54,AI-Adaptive,0.138,0,0.7948598402052661,Immediate treatment optimization
+945,61,Male,28.4,9.17,266.8,32.1,1804,42.0,0.66,Control,0.219,0,0.7478087352108088,Immediate treatment optimization
+946,59,Female,28.2,6.76,205.1,27.4,5588,46.3,0.72,AI-Adaptive,0.058,0,0.9582248767584328,Immediate treatment optimization
+947,58,Female,27.2,9.74,286.2,17.1,2810,43.1,0.58,AI-Adaptive,0.276,0,0.8922978468288937,Immediate treatment optimization
+948,58,Female,32.4,8.1,233.2,52.1,5369,40.8,0.78,AI-Adaptive,0.132,0,0.6336626611309517,Remote consultation
+949,59,Male,28.1,7.51,187.9,35.7,779,48.3,0.83,AI-Adaptive,0.075,0,0.554783019671164,Remote consultation
+950,45,Female,20.9,7.75,236.6,33.3,257,54.4,0.57,AI-Adaptive,0.137,0,0.8733200990827653,Immediate treatment optimization
+951,48,Female,31.9,8.22,208.2,39.9,2092,38.7,0.77,Control,0.125,0,0.7575337238676663,Immediate treatment optimization
+952,47,Male,31.1,8.49,259.6,35.6,1947,49.7,0.47,AI-Adaptive,0.234,0,0.6798577233199208,Remote consultation
+953,30,Female,29.3,8.56,252.2,24.9,1680,51.2,0.65,Control,0.158,0,0.7323904890194824,Immediate treatment optimization
+954,43,Male,22.5,7.98,250.6,40.3,1915,29.6,0.89,AI-Adaptive,0.088,0,0.766930258719564,Immediate treatment optimization
+955,31,Female,23.1,8.74,245.2,37.0,921,56.7,0.58,AI-Adaptive,0.218,0,0.47815719737438056,Remote consultation
+956,57,Female,19.5,8.51,221.9,24.6,2535,69.7,0.78,AI-Adaptive,0.12,0,0.2789178951473451,Continue standard protocol
+957,59,Male,28.8,7.72,190.3,35.4,2812,43.9,0.74,Control,0.099,0,0.721372390706311,Immediate treatment optimization
+958,33,Female,21.6,7.54,187.5,27.1,880,42.9,0.73,AI-Adaptive,0.084,0,0.6781702361808629,Remote consultation
+959,30,Female,20.1,9.23,225.7,31.4,1462,42.4,0.87,Control,0.153,0,0.5392976671896238,Remote consultation
+960,37,Female,32.1,9.13,274.5,35.5,1518,52.4,0.82,AI-Adaptive,0.167,0,0.6611937157225065,Remote consultation
+961,58,Male,30.1,8.57,261.3,41.4,1209,51.1,0.48,Control,0.251,0,0.054120024074148176,Continue standard protocol
+962,32,Male,25.7,9.61,280.2,25.7,901,25.9,0.79,Control,0.199,0,0.8515902014897029,Immediate treatment optimization
+963,61,Male,26.5,6.15,171.5,31.6,1822,34.6,0.58,Control,0.059,0,0.5596705094776703,Remote consultation
+964,39,Female,18.5,7.82,260.2,46.6,2114,51.1,0.89,AI-Adaptive,0.087,0,0.45047086974146844,Remote consultation
+965,39,Male,30.7,7.11,197.1,27.8,1254,43.3,0.83,AI-Adaptive,0.056,0,0.10487618956828892,Continue standard protocol
+966,48,Female,24.2,11.21,318.3,33.2,940,31.0,0.62,Control,0.487,1,0.2821398329243755,Continue standard protocol
+967,63,Female,28.3,9.36,261.1,46.6,2313,63.0,0.61,AI-Adaptive,0.292,0,0.015130948815450074,Continue standard protocol
+968,62,Male,18.5,8.41,228.7,34.9,1141,35.4,0.83,AI-Adaptive,0.116,0,0.4979440525263428,Remote consultation
+969,52,Female,30.9,9.44,276.9,19.0,1502,45.4,0.87,AI-Adaptive,0.149,1,0.6567930292870783,Remote consultation
+970,57,Male,24.0,9.84,262.9,24.1,1392,42.9,0.67,Control,0.264,1,0.3154533357640624,Continue standard protocol
+971,61,Female,21.5,9.83,261.2,36.0,3818,32.1,0.9,Control,0.199,0,0.5634599082875114,Remote consultation
+972,36,Female,25.6,9.61,282.7,34.3,1173,47.2,0.76,AI-Adaptive,0.227,0,0.25615309878792825,Continue standard protocol
+973,58,Male,24.6,8.18,219.1,30.9,5091,49.7,0.92,Control,0.083,0,0.33641178408877825,Continue standard protocol
+974,37,Male,31.3,7.9,223.9,47.0,2839,39.4,0.88,AI-Adaptive,0.093,1,0.7394302610430324,Immediate treatment optimization
+975,30,Male,25.3,7.35,199.0,24.3,5391,41.0,0.73,AI-Adaptive,0.074,0,0.6968263115311675,Remote consultation
+976,32,Female,32.5,9.1,254.6,29.7,2694,52.2,0.72,Control,0.187,0,0.10141567470923085,Continue standard protocol
+977,53,Female,28.3,8.31,219.2,13.9,1583,21.3,0.88,Control,0.08,0,0.8925351537822384,Immediate treatment optimization
+978,52,Female,30.6,8.0,211.2,38.8,1043,34.9,0.91,AI-Adaptive,0.084,0,0.8025721970031533,Immediate treatment optimization
+979,37,Male,27.0,7.94,205.9,23.0,1461,47.6,0.95,AI-Adaptive,0.063,0,0.8375508438071153,Immediate treatment optimization
+980,32,Male,32.1,10.24,303.6,39.8,4413,38.7,0.72,AI-Adaptive,0.326,0,0.3946227933395786,Continue standard protocol
+981,62,Male,22.4,9.64,273.4,38.3,1757,38.5,0.73,Control,0.251,1,0.3650457845848013,Continue standard protocol
+982,57,Female,27.5,10.7,318.0,50.4,2688,55.8,0.36,Control,0.61,1,0.1541546403706623,Continue standard protocol
+983,37,Female,25.4,9.13,276.1,36.0,2047,37.4,0.52,AI-Adaptive,0.281,1,0.757816707063714,Immediate treatment optimization
+984,63,Male,32.6,8.57,230.8,27.0,2100,68.8,0.89,AI-Adaptive,0.102,0,0.3563777199578796,Continue standard protocol
+985,64,Male,33.0,8.47,254.8,34.0,2149,23.9,0.75,Control,0.138,0,0.7956369517633854,Immediate treatment optimization
+986,61,Female,27.0,7.28,203.6,23.2,2434,18.5,0.47,AI-Adaptive,0.119,0,0.1553943502549272,Continue standard protocol
+987,53,Female,21.8,6.99,192.5,31.6,1109,55.5,0.56,Control,0.095,0,0.5640049158287801,Remote consultation
+988,43,Female,28.7,9.11,280.1,29.2,1533,33.2,0.64,Control,0.215,0,0.5068983649958685,Remote consultation
+989,61,Female,20.3,7.38,217.7,29.0,2177,33.4,0.74,AI-Adaptive,0.078,0,0.356300491323283,Continue standard protocol
+990,45,Male,33.5,8.75,238.0,22.8,1994,56.8,0.8,AI-Adaptive,0.127,0,0.07936803451984953,Continue standard protocol
+991,33,Male,25.1,9.84,285.3,33.4,1371,39.0,0.59,Control,0.324,1,0.07307259177423953,Continue standard protocol
+992,50,Female,26.9,7.7,190.3,35.6,2321,55.9,0.67,AI-Adaptive,0.113,1,0.5696879050323869,Remote consultation
+993,43,Female,24.3,10.91,310.4,18.2,1138,37.7,0.43,Control,0.506,0,0.0299089504635075,Continue standard protocol
+994,60,Male,23.4,7.31,174.7,23.2,868,49.4,0.53,Control,0.107,1,0.43050145605843537,Remote consultation
+995,47,Female,29.9,9.69,251.6,31.6,2158,38.9,0.47,Control,0.36,0,0.29989488656299834,Continue standard protocol
+996,36,Female,26.4,9.01,264.0,11.7,881,34.0,0.79,AI-Adaptive,0.131,1,0.6577061255497542,Remote consultation
+997,39,Female,27.2,9.93,224.6,43.7,2139,65.8,0.91,AI-Adaptive,0.22,0,0.512902579698011,Remote consultation
+998,36,Female,23.0,7.16,236.5,24.3,560,58.4,0.78,AI-Adaptive,0.061,0,0.4971830620913985,Remote consultation
+999,62,Male,30.4,11.27,332.2,24.4,1170,36.3,0.6,Control,0.48,1,0.915249008880213,Immediate treatment optimization
+1000,52,Female,30.8,8.29,195.3,27.5,1485,42.9,0.49,Control,0.192,0,0.20340022508162392,Continue standard protocol
