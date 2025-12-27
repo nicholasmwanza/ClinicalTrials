@@ -48,7 +48,7 @@ The adaptive framework uses model-predicted risk levels to guide treatment escal
 ```
 nicholasmwanza/ClinicalTrials
 │
-├── AI-Assisted Adaptive Clinical Trial for Early Treatment Failure in Type 3 Diabetes.ipynb
+├── AI-Assisted Adaptive Clinical Trial for Early Treatment Failure in Type 2 Diabetes(3).ipynb
 ├── README.md
 ├── clinical_data.csv                
 ├── clinical_data_scored.csv/             
