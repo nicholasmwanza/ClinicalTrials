@@ -79,9 +79,11 @@ ClinicalTrials.github/
 
 ## ⚠️ Disclaimer
 
-This project is **for academic and research purposes only**.
-The data used are **synthetic** and do not represent real patients.
-The framework is **not intended for direct clinical use** without proper validation and regulatory approval.
+* This project is **for academic and research purposes only**.
+* The data used are **synthetic** and do not represent real patients.
+* The framework is **not intended for direct clinical use** without proper validation and regulatory approval.
+
+
 
 ---
 
