@@ -60,7 +60,7 @@ nicholasmwanza/ClinicalTrials
 ##  Tools and Technologies
 
 * Python
-* Jupyter Notebook
+* Jupyter Lab
 * Pandas
 * NumPy
 * Scikit-learn
@@ -98,7 +98,7 @@ AI-Assisted Clinical Trial Research
 
 ## 📄 License
 
-This project is released under the **MIT License** (or update as appropriate).
+This project is released under the **MIT License**.
 
 ---
 
