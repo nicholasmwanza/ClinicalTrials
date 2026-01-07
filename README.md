@@ -91,7 +91,7 @@ nicholasmwanza/ClinicalTrials
 
 **Nicholas Mwanza**
 
-Applied Statistician/ Data Science, Public Health Practitioner, 
+Statistician/ Data Scientist, Public Health Practitioner, 
 AI-Assisted Clinical Trial Research
 
 ---
